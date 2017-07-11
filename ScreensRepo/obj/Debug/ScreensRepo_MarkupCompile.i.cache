@@ -16,5 +16,5 @@ DEBUG;TRACE
 221710010979
 LoginScreen.xaml;MainView.xaml;MenuScreen.xaml;NotificationWindow.xaml;OtherView.xaml;RecordView.xaml;
 
-True
+False
 
