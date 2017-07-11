@@ -10,6 +10,7 @@
              xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit"
              xmlns:chartingprimitives="clr-namespace:System.Windows.Controls.DataVisualization.Charting.Primitives;assembly=System.Windows.Controls.DataVisualization.Toolkit"
              mc:Ignorable="d"
+             xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
              d:DesignHeight="313" d:DesignWidth="382">
     <UserControl.Resources>
         <Style x:Key="DateTimeAxis" TargetType="chartingToolkit:DateTimeAxis">
@@ -77,7 +78,8 @@
         <ScrollViewer>
             <StackPanel>
                 <Grid>
-                    <gmaps:GMapControl x:Name="mapView" Loaded="mapView_Loaded" Margin="5,5,5,5" Height="400" Width="auto"/>
+                    <m:Map x:Name="mapView" CredentialsProvider="KEEEDTBMuatP82T0lBaz~LyodepcBdLJbXPBIPbavGQ~An_AVM9YZUJmROHUkFUGL2ujCmxsUDNCpps94i5ACIJYMuB9I-Ex3jihxTYdpj1x"
+                           Height="400"/>
                 </Grid>
                 <ScrollViewer
                     x:Name="ScrollArea" BorderThickness="0"

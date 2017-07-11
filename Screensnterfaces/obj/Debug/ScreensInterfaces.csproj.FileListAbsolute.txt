@@ -49,3 +49,9 @@ C:\Users\Ashley\Documents\DiRect\Screensnterfaces\bin\Debug\WPFToolkit.pdb
 C:\Users\Ashley\Documents\DiRect\Screensnterfaces\obj\Debug\ScreensInterfaces.csprojResolveAssemblyReference.cache
 C:\Users\Ashley\Documents\DiRect\Screensnterfaces\obj\Debug\ScreensInterfaces.dll
 C:\Users\Ashley\Documents\DiRect\Screensnterfaces\obj\Debug\ScreensInterfaces.pdb
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\Screensnterfaces\bin\Debug\ScreensInterfaces.dll
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\Screensnterfaces\bin\Debug\ScreensInterfaces.pdb
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\Screensnterfaces\obj\Debug\ScreensInterfaces.dll
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\Screensnterfaces\obj\Debug\ScreensInterfaces.pdb
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\Screensnterfaces\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\Screensnterfaces\bin\Debug\WPFToolkit.dll

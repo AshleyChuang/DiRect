@@ -22,6 +22,8 @@ using System.Collections.ObjectModel;
 using ScreensRepo.ViewModles;
 using System.ComponentModel;
 using System.Windows.Threading;
+using Microsoft.Maps.MapControl;
+using Microsoft.Maps.MapControl.WPF;
 
 namespace ScreensRepo
 {
@@ -30,7 +32,7 @@ namespace ScreensRepo
     /// </summary>
     public partial class RecordView : MenuViewBase
     {
-        Location myLocation;
+        GPS.Location myLocation;
         bool IsMouseLeftButtonDown = false;
         AreaDataPoint areaDataPoint;
         private LocationData Model;// { get; set; }
@@ -44,10 +46,12 @@ namespace ScreensRepo
             startclock();
             locations = ListOfLocations.GetInstance();
             waterLevel = locations.Locations[currLocation].WaterLevelTimeStamps;
-            myLocation = new Location();
+            myLocation = new GPS.Location();
             myLocation.GetLocationEvent();
             InitializeComponent();
-           
+            mapView.Center = new Microsoft.Maps.MapControl.WPF.Location(24.234, 121.1420);
+            mapView.ZoomLevel = 17.0;
+
             Model = locations.Locations[currLocation];
 
             myDateTimeAxis.Interval = 0.5;
@@ -70,28 +74,7 @@ namespace ScreensRepo
             TimeTextBox.Text = DateTime.Now.ToString();
         }
         // Map
-        private void mapView_Loaded(object sender, RoutedEventArgs e)
-        {
-
-            GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerAndCache;
-            // choose your provider here
-            mapView.MapProvider = GMap.NET.MapProviders.OpenStreetMapProvider.Instance;
-            mapView.MinZoom = 2;
-            mapView.MaxZoom = 17;
-            // whole world zoom
-            mapView.Zoom = 17;
-            // lets the map use the mousewheel to zoom
-            mapView.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
-            // lets the user drag the map
-            mapView.CanDragMap = true;
-            // lets the user drag the map with the left mouse button
-            mapView.DragButton = MouseButton.Left;
-            mapView.Position = new PointLatLng(myLocation.Latitude, myLocation.Longitude);
-            LatitudeTextBox.Text = myLocation.Latitude.ToString();
-            LongitudeTextBox.Text = myLocation.Longitude.ToString();
-
-        }
-
+       
         private void Click_On_Save_Button(object sender, EventArgs e)
         {
 
