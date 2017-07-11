@@ -165,6 +165,7 @@ C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\ScreensRepo\obj\Debug\NotificationWindow
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\ScreensRepo\obj\Debug\OtherView.baml
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\ScreensRepo\obj\Debug\RecordView.baml
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\ScreensRepo\obj\Debug\ScreensRepo.g.resources
+<<<<<<< HEAD
 C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\bin\Debug\ScreensRepo.dll
 C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\bin\Debug\ScreensRepo.pdb
 C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\bin\Debug\GPS.dll
@@ -192,3 +193,35 @@ C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\obj\Debug\ScreensRepo.g.resources
 C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\obj\Debug\ScreensRepo.dll
 C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\obj\Debug\ScreensRepo.pdb
 C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+=======
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\ScreensRepo.dll
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\ScreensRepo.pdb
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\GMap.NET.Core.dll
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\GPS.dll
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\ScreensInterfaces.dll
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\WPFToolkit.dll
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\GPS.pdb
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\ScreensInterfaces.pdb
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\WPFToolkit.pdb
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\ScreensRepo.csprojResolveAssemblyReference.cache
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\LoginScreen.g.cs
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\MainView.g.cs
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\MenuScreen.g.cs
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\NotificationWindow.g.cs
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\OtherView.g.cs
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\RecordView.g.cs
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\ScreensRepo_MarkupCompile.cache
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\ScreensRepo_MarkupCompile.lref
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\LoginScreen.baml
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\MainView.baml
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\MenuScreen.baml
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\NotificationWindow.baml
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\OtherView.baml
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\RecordView.baml
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\ScreensRepo.g.resources
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\ScreensRepo.dll
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\ScreensRepo.pdb
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b

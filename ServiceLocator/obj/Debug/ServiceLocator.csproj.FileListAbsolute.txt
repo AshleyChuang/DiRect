@@ -100,6 +100,7 @@ C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\ServiceLocator\bin\Debug\WPFToolkit.pdb
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\ServiceLocator\obj\Debug\ServiceLocator.csprojResolveAssemblyReference.cache
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\ServiceLocator\obj\Debug\ServiceLocator.dll
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\ServiceLocator\obj\Debug\ServiceLocator.pdb
+<<<<<<< HEAD
 C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\bin\Debug\ServiceLocator.dll
 C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\bin\Debug\ServiceLocator.pdb
 C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\bin\Debug\RepresentationLayer.dll
@@ -118,3 +119,24 @@ C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\obj\Debug\ServiceLocator.csproj
 C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\obj\Debug\ServiceLocator.dll
 C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\obj\Debug\ServiceLocator.pdb
 C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+=======
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\ServiceLocator.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\ServiceLocator.pdb
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\RepresentationLayer.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\ScreensInterfaces.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\ScreensRepo.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\GPS.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\GMap.NET.Core.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\WPFToolkit.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\RepresentationLayer.pdb
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\ScreensInterfaces.pdb
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\ScreensRepo.pdb
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\GPS.pdb
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\WPFToolkit.pdb
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\obj\Debug\ServiceLocator.csprojResolveAssemblyReference.cache
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\obj\Debug\ServiceLocator.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\obj\Debug\ServiceLocator.pdb
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b

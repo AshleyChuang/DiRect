@@ -121,11 +121,8 @@
                     
                 </ScrollViewer>
                 <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left">
-                    <TextBlock x:Name="DateTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Date: " />
-                    <TextBox x:Name="DateTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="" />
-
                     <TextBlock x:Name="TimeTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Time: " />
-                    <TextBox x:Name="TimeTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="" />
+                    <TextBox x:Name="TimeTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="" IsReadOnly="True" />
 
                 </StackPanel>
 

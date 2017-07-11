@@ -1,60 +1,100 @@
 namespace WorkFlows {
     
+<<<<<<< HEAD
     #line 20 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\LoginWorkFlow.xaml"
+=======
+    #line 20 "C:\Users\Ashley\Documents\DiRect\WorkFlows\LoginWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\LoginWorkFlow.xaml"
+=======
+    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\LoginWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Collections;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 21 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\LoginWorkFlow.xaml"
+=======
+    #line 21 "C:\Users\Ashley\Documents\DiRect\WorkFlows\LoginWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Collections.Generic;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\LoginWorkFlow.xaml"
+=======
+    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\LoginWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Activities;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\LoginWorkFlow.xaml"
+=======
+    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\LoginWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Activities.Expressions;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\LoginWorkFlow.xaml"
+=======
+    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\LoginWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Activities.Statements;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 22 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\LoginWorkFlow.xaml"
+=======
+    #line 22 "C:\Users\Ashley\Documents\DiRect\WorkFlows\LoginWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Data;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 23 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\LoginWorkFlow.xaml"
+=======
+    #line 23 "C:\Users\Ashley\Documents\DiRect\WorkFlows\LoginWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Linq;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 24 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\LoginWorkFlow.xaml"
+=======
+    #line 24 "C:\Users\Ashley\Documents\DiRect\WorkFlows\LoginWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Text;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\LoginWorkFlow.xaml"
+=======
+    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\LoginWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Activities.XamlIntegration;
     
     #line default
@@ -562,7 +602,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr0GetTree() {
                 
+<<<<<<< HEAD
                 #line 58 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+=======
+                #line 58 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                 vNextWorkFlow;
                 
@@ -574,7 +618,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr0Get() {
                 
+<<<<<<< HEAD
                 #line 58 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+=======
+                #line 58 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
                 vNextWorkFlow;
                 
@@ -590,7 +638,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr0Set(string value) {
                 
+<<<<<<< HEAD
                 #line 58 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+=======
+                #line 58 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 
                 vNextWorkFlow = value;
                 
@@ -704,7 +756,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr2GetTree() {
                 
+<<<<<<< HEAD
                 #line 71 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+=======
+                #line 71 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                         ServiceArg;
                 
@@ -716,7 +772,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr2Get() {
                 
+<<<<<<< HEAD
                 #line 71 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+=======
+                #line 71 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
                         ServiceArg;
                 
@@ -732,7 +792,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr2Set(string value) {
                 
+<<<<<<< HEAD
                 #line 71 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+=======
+                #line 71 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 
                         ServiceArg = value;
                 
@@ -797,7 +861,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr1GetTree() {
                 
+<<<<<<< HEAD
                 #line 76 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+=======
+                #line 76 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                         vNextWorkFlow;
                 
@@ -809,7 +877,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr1Get() {
                 
+<<<<<<< HEAD
                 #line 76 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+=======
+                #line 76 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\LOGINWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
                         vNextWorkFlow;
                 

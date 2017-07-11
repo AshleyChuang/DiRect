@@ -20,11 +20,12 @@ using GPS;
 using System.Windows.Controls.DataVisualization.Charting;
 using System.Collections.ObjectModel;
 using ScreensRepo.ViewModles;
-//using GMap.NET.WindowsForms;
-using GMap.NET.WindowsForms.Markers;
-using GMap.NET.MapProviders;
+
 using Microsoft.Maps.MapControl;
 using Microsoft.Maps.MapControl.WPF;
+using System.ComponentModel;
+using System.Windows.Threading;
+
 namespace ScreensRepo
 {
     /// <summary>
@@ -39,71 +40,43 @@ namespace ScreensRepo
         public ListOfLocations locations { get; set; }
         int currLocation = 1;
         public ObservableCollection<WaterLevelTimeStamp> waterLevel { get; set; }
+        
         public RecordView()
         {
             this.DataContext = this;
+            startclock();
             locations = ListOfLocations.GetInstance();
             waterLevel = locations.Locations[currLocation].WaterLevelTimeStamps;
             myLocation = new GPS.Location();
             myLocation.GetLocationEvent();
             InitializeComponent();
+
             mapView.Center = new Microsoft.Maps.MapControl.WPF.Location(47.6421, -122.1420);
             mapView.ZoomLevel = 17.0;
-            DateTextBox.Text = DateTime.Now.ToString("MM/dd/yyyy");
-            TimeTextBox.Text = DateTime.Now.ToString("HH:mm:ss");
+            
             Model = locations.Locations[currLocation];
+
             myDateTimeAxis.Interval = 0.5;
             myDateTimeAxis.IntervalType = DateTimeIntervalType.Hours;
             DateTime dateNow = DateTime.Now;
             myDateTimeAxis.Minimum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 0, 0, 0);
             myDateTimeAxis.Maximum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 23, 59, 59);
-            //myDateTimeAxis.Minimum = Model.WaterLevelTimeStamps.Min(i => i.Date).AddHours(-1);
-            //myDateTimeAxis.Maximum = Model.WaterLevelTimeStamps.Max(i => i.Date).AddHours(1);
             myLinearAxis.Maximum = Model.WaterLevelTimeStamps.Max(i => i.Value) + 5;
         }
-        private void LineSeriesDataPoint_MouseLeftButtonDown(object sender, RoutedEventArgs e)
+        // Timer
+        private void startclock()
         {
-            areaDataPoint = sender as AreaDataPoint;
-            IsMouseLeftButtonDown = true;
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += tickevent;
+            timer.Start();
         }
-        /*private void mapView_Loaded(object sender, RoutedEventArgs e)
+        private void tickevent(Object sender, EventArgs e)
         {
+            TimeTextBox.Text = DateTime.Now.ToString();
+        }
 
-           // GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerAndCache;
-            // choose your provider here
-            mapView.MapProvider = GMap.NET.MapProviders.BingHybridMapProvider.Instance;
-            mapView.MinZoom = 2;
-            mapView.MaxZoom = 17;
-            // whole world zoom
-            mapView.Zoom = 17;
-            // lets the map use the mousewheel to zoom
-            mapView.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
-            // lets the user drag the map
-            mapView.CanDragMap = true;
-            // lets the user drag the map with the left mouse button
-            mapView.DragButton = MouseButton.Left;
-            mapView.Position = new PointLatLng(myLocation.Latitude, myLocation.Longitude);
-            PointLatLng point = new PointLatLng(myLocation.Latitude, myLocation.Longitude);
-            GMap.NET.WindowsPresentation.GMapMarker currentMarker = new GMap.NET.WindowsPresentation.GMapMarker(point);
-            currentMarker.Shape = new Ellipse
-            {
-                Width = 20,
-                Height = 20,
-                Stroke = Brushes.Pink,
-                StrokeThickness = 20
-            };
-            currentMarker.Offset = new Point(-16, -32);
-            currentMarker.ZIndex = int.MaxValue;
-            
-            mapView.Markers.Add(currentMarker);
-           
-            LatitudeTextBox.Text = myLocation.Latitude.ToString();
-            LongitudeTextBox.Text = myLocation.Longitude.ToString();
-
-        }*/
-        
        
-
 
         private void Click_On_Save_Button(object sender, EventArgs e)
         {
@@ -120,6 +93,12 @@ namespace ScreensRepo
         {
             return "RecordWorkFlow";
 
+        }
+        // Chart
+        private void LineSeriesDataPoint_MouseLeftButtonDown(object sender, RoutedEventArgs e)
+        {
+            areaDataPoint = sender as AreaDataPoint;
+            IsMouseLeftButtonDown = true;
         }
         private WaterLevelTimeStamp getMouseTransformData()
         {

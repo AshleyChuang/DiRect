@@ -64,6 +64,7 @@ C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\Authenticator\bin\Debug\WPFToolkit.pdb
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\Authenticator\obj\Debug\Authenticator.csprojResolveAssemblyReference.cache
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\Authenticator\obj\Debug\Authenticator.dll
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\Authenticator\obj\Debug\Authenticator.pdb
+<<<<<<< HEAD
 C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\bin\Debug\Authenticator.dll
 C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\bin\Debug\Authenticator.pdb
 C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\bin\Debug\ScreensInterfaces.dll
@@ -80,3 +81,22 @@ C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\obj\Debug\Authenticator.csprojRe
 C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\obj\Debug\Authenticator.dll
 C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\obj\Debug\Authenticator.pdb
 C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+=======
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\Authenticator.dll
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\Authenticator.pdb
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\ScreensInterfaces.dll
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\ScreensRepo.dll
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\GPS.dll
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\GMap.NET.Core.dll
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\WPFToolkit.dll
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\ScreensInterfaces.pdb
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\ScreensRepo.pdb
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\GPS.pdb
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\WPFToolkit.pdb
+C:\Users\Ashley\Documents\DiRect\Authenticator\obj\Debug\Authenticator.csprojResolveAssemblyReference.cache
+C:\Users\Ashley\Documents\DiRect\Authenticator\obj\Debug\Authenticator.dll
+C:\Users\Ashley\Documents\DiRect\Authenticator\obj\Debug\Authenticator.pdb
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b

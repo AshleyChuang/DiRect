@@ -1,60 +1,100 @@
 namespace WorkFlows {
     
+<<<<<<< HEAD
     #line 20 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\MenuWorkFlow.xaml"
+=======
+    #line 20 "C:\Users\Ashley\Documents\DiRect\WorkFlows\MenuWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\MenuWorkFlow.xaml"
+=======
+    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\MenuWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Collections;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 21 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\MenuWorkFlow.xaml"
+=======
+    #line 21 "C:\Users\Ashley\Documents\DiRect\WorkFlows\MenuWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Collections.Generic;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\MenuWorkFlow.xaml"
+=======
+    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\MenuWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Activities;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\MenuWorkFlow.xaml"
+=======
+    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\MenuWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Activities.Expressions;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\MenuWorkFlow.xaml"
+=======
+    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\MenuWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Activities.Statements;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 22 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\MenuWorkFlow.xaml"
+=======
+    #line 22 "C:\Users\Ashley\Documents\DiRect\WorkFlows\MenuWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Data;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 23 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\MenuWorkFlow.xaml"
+=======
+    #line 23 "C:\Users\Ashley\Documents\DiRect\WorkFlows\MenuWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Linq;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 24 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\MenuWorkFlow.xaml"
+=======
+    #line 24 "C:\Users\Ashley\Documents\DiRect\WorkFlows\MenuWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Text;
     
     #line default
     #line hidden
     
+<<<<<<< HEAD
     #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\MenuWorkFlow.xaml"
+=======
+    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\MenuWorkFlow.xaml"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
     using System.Activities.XamlIntegration;
     
     #line default
@@ -690,7 +730,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr0GetTree() {
                 
+<<<<<<< HEAD
                 #line 58 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 58 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                 vNextState;
                 
@@ -702,7 +746,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr0Get() {
                 
+<<<<<<< HEAD
                 #line 58 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 58 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
                 vNextState;
                 
@@ -718,7 +766,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr0Set(string value) {
                 
+<<<<<<< HEAD
                 #line 58 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 58 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 
                 vNextState = value;
                 
@@ -734,7 +786,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr1GetTree() {
                 
+<<<<<<< HEAD
                 #line 63 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 63 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                 vNextWorkFlow;
                 
@@ -746,7 +802,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr1Get() {
                 
+<<<<<<< HEAD
                 #line 63 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 63 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
                 vNextWorkFlow;
                 
@@ -762,7 +822,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr1Set(string value) {
                 
+<<<<<<< HEAD
                 #line 63 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 63 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 
                 vNextWorkFlow = value;
                 
@@ -827,7 +891,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr2GetTree() {
                 
+<<<<<<< HEAD
                 #line 71 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 71 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
               vNextState == "FinalState";
                 
@@ -839,7 +907,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr2Get() {
                 
+<<<<<<< HEAD
                 #line 71 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 71 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
               vNextState == "FinalState";
                 
@@ -854,7 +926,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr3GetTree() {
                 
+<<<<<<< HEAD
                 #line 94 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 94 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
               vNextState=="Main";
                 
@@ -866,7 +942,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr3Get() {
                 
+<<<<<<< HEAD
                 #line 94 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 94 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
               vNextState=="Main";
                 
@@ -881,7 +961,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr4GetTree() {
                 
+<<<<<<< HEAD
                 #line 109 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 109 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
               vNextState == "Other";
                 
@@ -893,7 +977,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr4Get() {
                 
+<<<<<<< HEAD
                 #line 109 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 109 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
               vNextState == "Other";
                 
@@ -908,7 +996,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr5GetTree() {
                 
+<<<<<<< HEAD
                 #line 124 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 124 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
               vNextState == "Record";
                 
@@ -920,7 +1012,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr5Get() {
                 
+<<<<<<< HEAD
                 #line 124 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 124 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
               vNextState == "Record";
                 
@@ -984,7 +1080,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr7GetTree() {
                 
+<<<<<<< HEAD
                 #line 79 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 79 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                         ServiceArg;
                 
@@ -996,7 +1096,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr7Get() {
                 
+<<<<<<< HEAD
                 #line 79 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 79 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
                         ServiceArg;
                 
@@ -1012,7 +1116,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr7Set(string value) {
                 
+<<<<<<< HEAD
                 #line 79 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 79 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 
                         ServiceArg = value;
                 
@@ -1077,7 +1185,11 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr6GetTree() {
                 
+<<<<<<< HEAD
                 #line 84 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 84 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                         vNextWorkFlow;
                 
@@ -1089,7 +1201,11 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr6Get() {
                 
+<<<<<<< HEAD
                 #line 84 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+=======
+                #line 84 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\MENUWORKFLOW.XAML"
+>>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
                 return 
                         vNextWorkFlow;
                 
