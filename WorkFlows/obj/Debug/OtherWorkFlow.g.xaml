@@ -62,7 +62,7 @@
         </State.Transitions>
       </State>
       <x:Reference>__ReferenceID0</x:Reference>
-      <sads:DebugSymbol.Symbol>9xAImMG81PDG798VE1gt25K5Y0M6XFVzZXJzXFRyYWN5XERlc2t0b3BcRGlSZWN0LTQyNTg3ZDk0YjhiMDU5ZDQ2NTMxMTE0ZTkxYzNlZWZmM2U5YzU2OGJcV29ya0Zsb3dzXE90aGVyV29ya0Zsb3cueGFtbAc0A1ASAgEBNQVNDQIBCDwNSRUCAQI3CTdiAgELPhFHGgIBBEU8RUgCAQdBF0FnAgEF</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xAImMG81PDG798VE1gt25K5PUM6XFVzZXJzXEFzaGxleVxEb2N1bWVudHNcRGlSZWN0XFdvcmtGbG93c1xPdGhlcldvcmtGbG93LnhhbWwHNANQEgIBATUFTQ0CAQg8DUkVAgECNwk3YgIBCz4RRxoCAQRFPEVIAgEHQRdBZwIBBQ==</sads:DebugSymbol.Symbol>
     </StateMachine>
   </local:OtherWorkFlow.Implementation>
 </local:OtherWorkFlow>

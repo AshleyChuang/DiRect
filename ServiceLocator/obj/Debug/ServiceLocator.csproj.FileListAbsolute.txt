@@ -107,8 +107,6 @@ C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\ScreensInterfaces.dll
 C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\ScreensRepo.dll
 C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\GPS.dll
 C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
-C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\GMap.NET.WindowsPresentation.dll
-C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\GMap.NET.Core.dll
 C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\WPFToolkit.dll
 C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\RepresentationLayer.pdb
 C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\ScreensInterfaces.pdb
@@ -135,3 +133,4 @@ C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\ServiceLo
 C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\ServiceLocator\obj\Debug\ServiceLocator.dll
 C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\ServiceLocator\obj\Debug\ServiceLocator.pdb
 C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\ServiceLocator\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\Microsoft.Maps.MapControl.WPF.dll

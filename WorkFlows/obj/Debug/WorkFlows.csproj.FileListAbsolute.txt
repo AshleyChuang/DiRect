@@ -402,8 +402,6 @@ C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\ScreensRepo.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\ServiceLocator.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\GPS.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
-C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\GMap.NET.WindowsPresentation.dll
-C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\GMap.NET.Core.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\RepresentationLayer.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\WPFToolkit.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\Authenticator.pdb
@@ -497,3 +495,4 @@ C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows
 C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\obj\Debug\WorkFlows_OtherWorkFlow_CompiledExpressionRoot.cs
 C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
 C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
