@@ -168,7 +168,7 @@
         <Variable x:TypeArguments="x:String" Name="Message" />
         <Variable x:TypeArguments="x:String" Name="vNextWorkFlow" />
       </StateMachine.Variables>
-      <sads:DebugSymbol.Symbol>9xDyvKfGiIX0bO9U0/te6wh8U0M6XFVzZXJzXEFzaGxleVxEb3dubG9hZHNcRGlSZWN0X1dGX1dQRlxEaVJlY3RfV0ZfV1BGXFdvcmtGbG93c1xSZWNvcmRXb3JrRmxvdy54YW1sGjQDugESAgEBNgesAQ8CAUdQD6MBFwIBJWoXigEfAgEbdx+GAScCAQySARefAR8CAQI4C0gtAgFWTQ9NcwIBT6gBD6gBZwIBSVITYjACATRnF2d6AgEtjwEXjwF5AgEnbBtyPAIBHnkjhAEsAgEOlAEbmgE8AgEFODk4TAIBaTsRO2ECAWNFEUVeAgFdQBFAZAIBV1UZVWkCAUFfGV9mAgE7WhlaXgIBNW8hb2YCAR+BASmBAXQCARV8KXx5AgEPlwEhlwFmAgEG</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xDyvKfGiIX0bO9U0/te6wh8P0M6XFVzZXJzXFRyYWN5XERlc2t0b3BcR2l0XERpUmVjdFxXb3JrRmxvd3NcUmVjb3JkV29ya0Zsb3cueGFtbBo0A7oBEgIBATYHrAEPAgFHUA+jARcCASVqF4oBHwIBG3cfhgEnAgEMkgEXnwEfAgECOAtILQIBVk0PTXMCAU+oAQ+oAWcCAUlSE2IwAgE0ZxdnegIBLY8BF48BeQIBJ2wbcjwCAR55I4QBLAIBDpQBG5oBPAIBBTg5OEwCAWk7ETthAgFjRRFFXgIBXUARQGQCAVdVGVVpAgFBXxlfZgIBO1oZWl4CATVvIW9mAgEfgQEpgQF0AgEVfCl8eQIBD5cBIZcBZgIBBg==</sads:DebugSymbol.Symbol>
     </StateMachine>
   </local:RecordWorkFlow.Implementation>
 </local:RecordWorkFlow>

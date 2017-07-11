@@ -20,6 +20,11 @@ using GPS;
 using System.Windows.Controls.DataVisualization.Charting;
 using System.Collections.ObjectModel;
 using ScreensRepo.ViewModles;
+//using GMap.NET.WindowsForms;
+using GMap.NET.WindowsForms.Markers;
+using GMap.NET.MapProviders;
+using Microsoft.Maps.MapControl;
+using Microsoft.Maps.MapControl.WPF;
 namespace ScreensRepo
 {
     /// <summary>
@@ -27,7 +32,7 @@ namespace ScreensRepo
     /// </summary>
     public partial class RecordView : MenuViewBase
     {
-        Location myLocation;
+        GPS.Location myLocation;
         bool IsMouseLeftButtonDown = false;
         AreaDataPoint areaDataPoint;
         private LocationData Model;// { get; set; }
@@ -39,9 +44,11 @@ namespace ScreensRepo
             this.DataContext = this;
             locations = ListOfLocations.GetInstance();
             waterLevel = locations.Locations[currLocation].WaterLevelTimeStamps;
-            myLocation = new Location();
+            myLocation = new GPS.Location();
             myLocation.GetLocationEvent();
             InitializeComponent();
+            mapView.Center = new Microsoft.Maps.MapControl.WPF.Location(47.6421, -122.1420);
+            mapView.ZoomLevel = 17.0;
             DateTextBox.Text = DateTime.Now.ToString("MM/dd/yyyy");
             TimeTextBox.Text = DateTime.Now.ToString("HH:mm:ss");
             Model = locations.Locations[currLocation];
@@ -59,12 +66,12 @@ namespace ScreensRepo
             areaDataPoint = sender as AreaDataPoint;
             IsMouseLeftButtonDown = true;
         }
-        private void mapView_Loaded(object sender, RoutedEventArgs e)
+        /*private void mapView_Loaded(object sender, RoutedEventArgs e)
         {
 
-            GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerAndCache;
+           // GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerAndCache;
             // choose your provider here
-            mapView.MapProvider = GMap.NET.MapProviders.OpenStreetMapProvider.Instance;
+            mapView.MapProvider = GMap.NET.MapProviders.BingHybridMapProvider.Instance;
             mapView.MinZoom = 2;
             mapView.MaxZoom = 17;
             // whole world zoom
@@ -76,10 +83,26 @@ namespace ScreensRepo
             // lets the user drag the map with the left mouse button
             mapView.DragButton = MouseButton.Left;
             mapView.Position = new PointLatLng(myLocation.Latitude, myLocation.Longitude);
+            PointLatLng point = new PointLatLng(myLocation.Latitude, myLocation.Longitude);
+            GMap.NET.WindowsPresentation.GMapMarker currentMarker = new GMap.NET.WindowsPresentation.GMapMarker(point);
+            currentMarker.Shape = new Ellipse
+            {
+                Width = 20,
+                Height = 20,
+                Stroke = Brushes.Pink,
+                StrokeThickness = 20
+            };
+            currentMarker.Offset = new Point(-16, -32);
+            currentMarker.ZIndex = int.MaxValue;
+            
+            mapView.Markers.Add(currentMarker);
+           
             LatitudeTextBox.Text = myLocation.Latitude.ToString();
             LongitudeTextBox.Text = myLocation.Longitude.ToString();
 
-        }
+        }*/
+        
+       
 
 
         private void Click_On_Save_Button(object sender, EventArgs e)

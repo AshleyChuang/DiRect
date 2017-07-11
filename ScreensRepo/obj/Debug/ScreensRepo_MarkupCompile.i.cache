@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\Ashley\Downloads\DiRect_WF_WPF\DiRect_WF_WPF\ScreensRepo\obj\Debug\
+C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\obj\Debug\
 ScreensRepo
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 
 61744789522
 
-17-2118001512
-22-1118702108
+17762130431
+241251569065
 LoginScreen.xaml;MainView.xaml;MenuScreen.xaml;NotificationWindow.xaml;OtherView.xaml;RecordView.xaml;
 
 True

@@ -40,3 +40,12 @@ C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\Screensnterfaces\bin\Debug\WPFToolkit.pd
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\Screensnterfaces\obj\Debug\ScreensInterfaces.csprojResolveAssemblyReference.cache
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\Screensnterfaces\obj\Debug\ScreensInterfaces.dll
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\Screensnterfaces\obj\Debug\ScreensInterfaces.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\Screensnterfaces\bin\Debug\ScreensInterfaces.dll
+C:\Users\Tracy\Desktop\Git\DiRect\Screensnterfaces\bin\Debug\ScreensInterfaces.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\Screensnterfaces\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Tracy\Desktop\Git\DiRect\Screensnterfaces\bin\Debug\WPFToolkit.dll
+C:\Users\Tracy\Desktop\Git\DiRect\Screensnterfaces\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\Screensnterfaces\bin\Debug\WPFToolkit.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\Screensnterfaces\obj\Debug\ScreensInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\Tracy\Desktop\Git\DiRect\Screensnterfaces\obj\Debug\ScreensInterfaces.dll
+C:\Users\Tracy\Desktop\Git\DiRect\Screensnterfaces\obj\Debug\ScreensInterfaces.pdb

@@ -8,3 +8,8 @@ C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\GPS\bin\Debug\GPS.pdb
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\GPS\obj\Debug\GPS.csprojResolveAssemblyReference.cache
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\GPS\obj\Debug\GPS.dll
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\GPS\obj\Debug\GPS.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\GPS\bin\Debug\GPS.dll
+C:\Users\Tracy\Desktop\Git\DiRect\GPS\bin\Debug\GPS.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\GPS\obj\Debug\GPS.csprojResolveAssemblyReference.cache
+C:\Users\Tracy\Desktop\Git\DiRect\GPS\obj\Debug\GPS.dll
+C:\Users\Tracy\Desktop\Git\DiRect\GPS\obj\Debug\GPS.pdb
