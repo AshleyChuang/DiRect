@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\ScreensRepo\obj\Debug\
+C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\obj\Debug\
 ScreensRepo
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 61744789522
 
 13-1252588973
-231911770520
+24320758402
 LoginScreen.xaml;MainView.xaml;MenuScreen.xaml;NotificationWindow.xaml;OtherView.xaml;RecordView.xaml;
 
 False

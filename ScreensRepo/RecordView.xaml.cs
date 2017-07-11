@@ -24,7 +24,7 @@ using System.ComponentModel;
 using System.Windows.Threading;
 using Microsoft.Maps.MapControl;
 using Microsoft.Maps.MapControl.WPF;
-
+using System.Device.Location;
 namespace ScreensRepo
 {
     /// <summary>
@@ -42,15 +42,36 @@ namespace ScreensRepo
         
         public RecordView()
         {
+            GeoCoordinateWatcher watcher;
+            watcher = new GeoCoordinateWatcher();
+            watcher.PositionChanged += new EventHandler<GeoPositionChangedEventArgs<GeoCoordinate>>(watcher_PositionChanged);
+            watcher.TryStart(false, TimeSpan.FromMilliseconds(2000));
+
+
             this.DataContext = this;
             startclock();
             locations = ListOfLocations.GetInstance();
             waterLevel = locations.Locations[currLocation].WaterLevelTimeStamps;
-            myLocation = new GPS.Location();
-            myLocation.GetLocationEvent();
+
+            /*myLocation = new GPS.Location();
+            myLocation.GetLocationEvent();*/
+
             InitializeComponent();
-            mapView.Center = new Microsoft.Maps.MapControl.WPF.Location(24.234, 121.1420);
+
+        
             mapView.ZoomLevel = 17.0;
+
+            //Convert the mouse coordinates to a locatoin on the map
+            Microsoft.Maps.MapControl.WPF.Location pinLocation = new Microsoft.Maps.MapControl.WPF.Location(24.25, 121.142);
+
+            // The pushpin to add to the map.
+            Pushpin pin = new Pushpin();
+            pin.Location = pinLocation;
+            pin.MouseLeftButtonDown += Click_On_Push_Pin;
+
+            // Adds the pushpin to the map.
+            mapView.Children.Add(pin);
+
 
             Model = locations.Locations[currLocation];
 
@@ -61,7 +82,27 @@ namespace ScreensRepo
             myDateTimeAxis.Maximum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 23, 59, 59);
             myLinearAxis.Maximum = Model.WaterLevelTimeStamps.Max(i => i.Value) + 5;
         }
+        void watcher_PositionChanged(object sender, GeoPositionChangedEventArgs<GeoCoordinate> e)
+        {
+            Debug.WriteLine("Latitude 2: " + e.Position.Location.Latitude.ToString());
+            Debug.WriteLine("Longitude 2: " + e.Position.Location.Latitude.ToString());
+            mapView.Center = new Microsoft.Maps.MapControl.WPF.Location(e.Position.Location.Latitude, e.Position.Location.Longitude);
+            Microsoft.Maps.MapControl.WPF.Location pinLocation = new Microsoft.Maps.MapControl.WPF.Location(e.Position.Location.Latitude, e.Position.Location.Longitude);
+            LongitudeTextBox.Text = e.Position.Location.Longitude.ToString();
+            LatitudeTextBox.Text = e.Position.Location.Latitude.ToString();
+            Pushpin pin = new Pushpin();
+            pin.Location = pinLocation;
+            pin.MouseLeftButtonDown += Click_On_Push_Pin;
+
+            // Adds the pushpin to the map.
+            mapView.Children.Add(pin);
+        }
         // Timer
+        private void Click_On_Push_Pin(object sender, EventArgs e)
+        {
+            Debug.WriteLine("Click Push Pin");
+
+        }
         private void startclock()
         {
             DispatcherTimer timer = new DispatcherTimer();

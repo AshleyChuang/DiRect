@@ -79,7 +79,7 @@
             <StackPanel>
                 <Grid>
                     <m:Map x:Name="mapView" CredentialsProvider="KEEEDTBMuatP82T0lBaz~LyodepcBdLJbXPBIPbavGQ~An_AVM9YZUJmROHUkFUGL2ujCmxsUDNCpps94i5ACIJYMuB9I-Ex3jihxTYdpj1x"
-                           Height="400"/>
+                           Height="400" />
                 </Grid>
                 <ScrollViewer
                     x:Name="ScrollArea" BorderThickness="0"
