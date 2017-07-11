@@ -20,11 +20,10 @@ using GPS;
 using System.Windows.Controls.DataVisualization.Charting;
 using System.Collections.ObjectModel;
 using ScreensRepo.ViewModles;
-
-using Microsoft.Maps.MapControl;
-using Microsoft.Maps.MapControl.WPF;
 using System.ComponentModel;
 using System.Windows.Threading;
+using Microsoft.Maps.MapControl;
+using Microsoft.Maps.MapControl.WPF;
 
 namespace ScreensRepo
 {
@@ -50,10 +49,9 @@ namespace ScreensRepo
             myLocation = new GPS.Location();
             myLocation.GetLocationEvent();
             InitializeComponent();
-
-            mapView.Center = new Microsoft.Maps.MapControl.WPF.Location(47.6421, -122.1420);
+            mapView.Center = new Microsoft.Maps.MapControl.WPF.Location(24.234, 121.1420);
             mapView.ZoomLevel = 17.0;
-            
+
             Model = locations.Locations[currLocation];
 
             myDateTimeAxis.Interval = 0.5;
@@ -75,9 +73,8 @@ namespace ScreensRepo
         {
             TimeTextBox.Text = DateTime.Now.ToString();
         }
-
+        // Map
        
-
         private void Click_On_Save_Button(object sender, EventArgs e)
         {
 

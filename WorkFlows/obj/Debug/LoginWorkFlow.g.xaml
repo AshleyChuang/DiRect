@@ -76,11 +76,7 @@
       <StateMachine.Variables>
         <Variable x:TypeArguments="x:String" Name="vNextWorkFlow" />
       </StateMachine.Variables>
-<<<<<<< HEAD
-      <sads:DebugSymbol.Symbol>9xCKKxk4aBlku57YesqhCxUAPkM6XFVzZXJzXFRyYWN5XERlc2t0b3BcR2l0XERpUmVjdFxXb3JrRmxvd3NcTG9naW5Xb3JrRmxvdy54YW1sCTQDXhICAQE2B1YPAgELQw9SFwIBAjgLPiUCAQ5FE1AcAgEEODE4OAIBEjsRO2QCAQ9NGU1kAgEISBlIaQIBBQ==</sads:DebugSymbol.Symbol>
-=======
-      <sads:DebugSymbol.Symbol>9xCKKxk4aBlku57YesqhCxUAPUM6XFVzZXJzXEFzaGxleVxEb2N1bWVudHNcRGlSZWN0XFdvcmtGbG93c1xMb2dpbldvcmtGbG93LnhhbWwJNANeEgIBATYHVg8CAQtDD1IXAgECOAs+JQIBDkUTUBwCAQQ4MTg4AgESOxE7ZAIBD00ZTWQCAQhIGUhpAgEF</sads:DebugSymbol.Symbol>
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+      <sads:DebugSymbol.Symbol>9xDBFwz3Si1QnGrHiQA0BUvZY0M6XFVzZXJzXFRyYWN5XERlc2t0b3BcRGlSZWN0LTQyNTg3ZDk0YjhiMDU5ZDQ2NTMxMTE0ZTkxYzNlZWZmM2U5YzU2OGJcV29ya0Zsb3dzXExvZ2luV29ya0Zsb3cueGFtbAk0A14SAgEBNgdWDwIBC0MPUhcCAQI4Cz4lAgEORRNQHAIBBDgxODgCARI7ETtkAgEPTRlNZAIBCEgZSGkCAQU=</sads:DebugSymbol.Symbol>
     </StateMachine>
   </local:LoginWorkFlow.Implementation>
 </local:LoginWorkFlow>

@@ -9,16 +9,8 @@ obj\Debug\WorkFlows_MenuWorkFlow_BeforeInitializeComponentHelper.cs
 obj\Debug\WorkFlows_RecordWorkFlow_BeforeInitializeComponentHelper.cs
 obj\Debug\WorkFlows_MainWorkFlow_BeforeInitializeComponentHelper.cs
 obj\Debug\WorkFlows_OtherWorkFlow_BeforeInitializeComponentHelper.cs
-<<<<<<< HEAD
-C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\obj\Debug\WorkFlows_LoginWorkFlow_CompiledExpressionRoot.cs
-C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\obj\Debug\WorkFlows_MenuWorkFlow_CompiledExpressionRoot.cs
-C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\obj\Debug\WorkFlows_RecordWorkFlow_CompiledExpressionRoot.cs
-C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\obj\Debug\WorkFlows_MainWorkFlow_CompiledExpressionRoot.cs
-C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\obj\Debug\WorkFlows_OtherWorkFlow_CompiledExpressionRoot.cs
-=======
-C:\Users\Ashley\Documents\DiRect\WorkFlows\obj\Debug\WorkFlows_LoginWorkFlow_CompiledExpressionRoot.cs
-C:\Users\Ashley\Documents\DiRect\WorkFlows\obj\Debug\WorkFlows_MenuWorkFlow_CompiledExpressionRoot.cs
-C:\Users\Ashley\Documents\DiRect\WorkFlows\obj\Debug\WorkFlows_RecordWorkFlow_CompiledExpressionRoot.cs
-C:\Users\Ashley\Documents\DiRect\WorkFlows\obj\Debug\WorkFlows_MainWorkFlow_CompiledExpressionRoot.cs
-C:\Users\Ashley\Documents\DiRect\WorkFlows\obj\Debug\WorkFlows_OtherWorkFlow_CompiledExpressionRoot.cs
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\obj\Debug\WorkFlows_LoginWorkFlow_CompiledExpressionRoot.cs
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\obj\Debug\WorkFlows_MenuWorkFlow_CompiledExpressionRoot.cs
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\obj\Debug\WorkFlows_RecordWorkFlow_CompiledExpressionRoot.cs
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\obj\Debug\WorkFlows_MainWorkFlow_CompiledExpressionRoot.cs
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\obj\Debug\WorkFlows_OtherWorkFlow_CompiledExpressionRoot.cs

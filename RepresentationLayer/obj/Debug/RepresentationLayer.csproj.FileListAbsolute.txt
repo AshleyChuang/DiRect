@@ -83,24 +83,6 @@ C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\RepresentationLayer\bin\Debug\WPFToolkit
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\RepresentationLayer\obj\Debug\RepresentationLayer.csprojResolveAssemblyReference.cache
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\RepresentationLayer\obj\Debug\RepresentationLayer.dll
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\RepresentationLayer\obj\Debug\RepresentationLayer.pdb
-<<<<<<< HEAD
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\RepresentationLayer.dll
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\RepresentationLayer.pdb
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\ScreensInterfaces.dll
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\ScreensRepo.dll
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\GPS.dll
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\WPFToolkit.dll
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\ScreensInterfaces.pdb
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\ScreensRepo.pdb
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\GPS.pdb
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\WPFToolkit.pdb
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.csprojResolveAssemblyReference.cache
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.dll
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.pdb
-C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
-=======
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\RepresentationLayer.dll
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\RepresentationLayer.pdb
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\ScreensInterfaces.dll
@@ -118,4 +100,17 @@ C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\WPFToolkit.pdb
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.csprojResolveAssemblyReference.cache
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.dll
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.pdb
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\RepresentationLayer.dll
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\RepresentationLayer.pdb
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\ScreensInterfaces.dll
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\ScreensRepo.dll
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\GPS.dll
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\WPFToolkit.dll
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\ScreensInterfaces.pdb
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\ScreensRepo.pdb
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\GPS.pdb
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\obj\Debug\RepresentationLayer.csprojResolveAssemblyReference.cache
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\obj\Debug\RepresentationLayer.dll
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\obj\Debug\RepresentationLayer.pdb
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\RepresentationLayer\bin\Debug\Microsoft.Maps.MapControl.WPF.dll

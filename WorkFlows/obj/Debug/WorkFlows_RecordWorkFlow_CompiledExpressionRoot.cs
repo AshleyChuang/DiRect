@@ -1,100 +1,60 @@
 namespace WorkFlows {
     
-<<<<<<< HEAD
-    #line 20 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\RecordWorkFlow.xaml"
-=======
-    #line 20 "C:\Users\Ashley\Documents\DiRect\WorkFlows\RecordWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 20 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\RecordWorkFlow.xaml"
     using System;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\RecordWorkFlow.xaml"
-=======
-    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\RecordWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 1 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\RecordWorkFlow.xaml"
     using System.Collections;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 21 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\RecordWorkFlow.xaml"
-=======
-    #line 21 "C:\Users\Ashley\Documents\DiRect\WorkFlows\RecordWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 21 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\RecordWorkFlow.xaml"
     using System.Collections.Generic;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\RecordWorkFlow.xaml"
-=======
-    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\RecordWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 1 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\RecordWorkFlow.xaml"
     using System.Activities;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\RecordWorkFlow.xaml"
-=======
-    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\RecordWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 1 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\RecordWorkFlow.xaml"
     using System.Activities.Expressions;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\RecordWorkFlow.xaml"
-=======
-    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\RecordWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 1 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\RecordWorkFlow.xaml"
     using System.Activities.Statements;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 22 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\RecordWorkFlow.xaml"
-=======
-    #line 22 "C:\Users\Ashley\Documents\DiRect\WorkFlows\RecordWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 22 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\RecordWorkFlow.xaml"
     using System.Data;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 23 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\RecordWorkFlow.xaml"
-=======
-    #line 23 "C:\Users\Ashley\Documents\DiRect\WorkFlows\RecordWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 23 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\RecordWorkFlow.xaml"
     using System.Linq;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 24 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\RecordWorkFlow.xaml"
-=======
-    #line 24 "C:\Users\Ashley\Documents\DiRect\WorkFlows\RecordWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 24 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\RecordWorkFlow.xaml"
     using System.Text;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\RecordWorkFlow.xaml"
-=======
-    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\RecordWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 1 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\RecordWorkFlow.xaml"
     using System.Activities.XamlIntegration;
     
     #line default
@@ -902,11 +862,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr0GetTree() {
                 
-<<<<<<< HEAD
-                #line 58 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 58 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 58 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                 vNextState;
                 
@@ -918,11 +874,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr0Get() {
                 
-<<<<<<< HEAD
-                #line 58 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 58 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 58 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                 vNextState;
                 
@@ -938,11 +890,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr0Set(string value) {
                 
-<<<<<<< HEAD
-                #line 58 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 58 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 58 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 
                 vNextState = value;
                 
@@ -958,11 +906,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr1GetTree() {
                 
-<<<<<<< HEAD
-                #line 68 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 68 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 68 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<object>> expression = () => 
                 vRecord;
                 
@@ -974,11 +918,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public object @__Expr1Get() {
                 
-<<<<<<< HEAD
-                #line 68 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 68 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 68 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                 vRecord;
                 
@@ -994,11 +934,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr1Set(object value) {
                 
-<<<<<<< HEAD
-                #line 68 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 68 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 68 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 
                 vRecord = value;
                 
@@ -1014,11 +950,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr2GetTree() {
                 
-<<<<<<< HEAD
-                #line 63 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 63 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 63 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                 vNextWorkFlow;
                 
@@ -1030,11 +962,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr2Get() {
                 
-<<<<<<< HEAD
-                #line 63 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 63 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 63 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                 vNextWorkFlow;
                 
@@ -1050,11 +978,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr2Set(string value) {
                 
-<<<<<<< HEAD
-                #line 63 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 63 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 63 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 
                 vNextWorkFlow = value;
                 
@@ -1119,11 +1043,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr3GetTree() {
                 
-<<<<<<< HEAD
-                #line 76 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 76 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 76 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
               vNextState=="Authenticate Input Data";
                 
@@ -1135,11 +1055,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr3Get() {
                 
-<<<<<<< HEAD
-                #line 76 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 76 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 76 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
               vNextState=="Authenticate Input Data";
                 
@@ -1154,11 +1070,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr4GetTree() {
                 
-<<<<<<< HEAD
-                #line 167 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 167 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 167 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
               vNextState== "FinalState";
                 
@@ -1170,11 +1082,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr4Get() {
                 
-<<<<<<< HEAD
-                #line 167 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 167 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 167 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
               vNextState== "FinalState";
                 
@@ -1238,11 +1146,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr5GetTree() {
                 
-<<<<<<< HEAD
-                #line 84 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 84 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 84 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                         vNextState;
                 
@@ -1254,11 +1158,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr5Get() {
                 
-<<<<<<< HEAD
-                #line 84 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 84 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 84 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                         vNextState;
                 
@@ -1274,11 +1174,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr5Set(string value) {
                 
-<<<<<<< HEAD
-                #line 84 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 84 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 84 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 
                         vNextState = value;
                 
@@ -1294,11 +1190,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr6GetTree() {
                 
-<<<<<<< HEAD
-                #line 94 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 94 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 94 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                         Message;
                 
@@ -1310,11 +1202,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr6Get() {
                 
-<<<<<<< HEAD
-                #line 94 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 94 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 94 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                         Message;
                 
@@ -1330,11 +1218,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr6Set(string value) {
                 
-<<<<<<< HEAD
-                #line 94 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 94 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 94 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 
                         Message = value;
                 
@@ -1399,11 +1283,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr7GetTree() {
                 
-<<<<<<< HEAD
-                #line 89 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 89 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 89 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<object>> expression = () => 
                         vRecord;
                 
@@ -1415,11 +1295,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public object @__Expr7Get() {
                 
-<<<<<<< HEAD
-                #line 89 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 89 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 89 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                         vRecord;
                 
@@ -1434,11 +1310,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr8GetTree() {
                 
-<<<<<<< HEAD
-                #line 102 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 102 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 102 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                       vNextState=="ShowSucessNotification";
                 
@@ -1450,11 +1322,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr8Get() {
                 
-<<<<<<< HEAD
-                #line 102 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 102 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 102 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                       vNextState=="ShowSucessNotification";
                 
@@ -1469,11 +1337,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr9GetTree() {
                 
-<<<<<<< HEAD
-                #line 142 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 142 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 142 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                       vNextState=="ShowErrorNotification";
                 
@@ -1485,11 +1349,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr9Get() {
                 
-<<<<<<< HEAD
-                #line 142 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 142 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 142 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                       vNextState=="ShowErrorNotification";
                 
@@ -1602,11 +1462,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr10GetTree() {
                 
-<<<<<<< HEAD
-                #line 110 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 110 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 110 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                 Message;
                 
@@ -1618,11 +1474,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr10Get() {
                 
-<<<<<<< HEAD
-                #line 110 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 110 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 110 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                                 Message;
                 
@@ -1686,11 +1538,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr12GetTree() {
                 
-<<<<<<< HEAD
-                #line 123 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 123 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 123 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                         ServiceArg;
                 
@@ -1702,11 +1550,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr12Get() {
                 
-<<<<<<< HEAD
-                #line 123 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 123 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 123 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                                         ServiceArg;
                 
@@ -1722,11 +1566,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr12Set(string value) {
                 
-<<<<<<< HEAD
-                #line 123 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 123 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 123 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 
                                         ServiceArg = value;
                 
@@ -1791,11 +1631,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr11GetTree() {
                 
-<<<<<<< HEAD
-                #line 128 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 128 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 128 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                         vNextWorkFlow;
                 
@@ -1807,11 +1643,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr11Get() {
                 
-<<<<<<< HEAD
-                #line 128 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 128 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 128 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                                         vNextWorkFlow;
                 
@@ -1924,11 +1756,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr13GetTree() {
                 
-<<<<<<< HEAD
-                #line 150 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 150 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 150 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                 Message;
                 
@@ -1940,11 +1768,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr13Get() {
                 
-<<<<<<< HEAD
-                #line 150 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
-=======
-                #line 150 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 150 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                                 Message;
                 

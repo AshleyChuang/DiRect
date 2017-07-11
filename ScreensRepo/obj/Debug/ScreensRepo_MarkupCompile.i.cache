@@ -4,11 +4,7 @@
 library
 C#
 .cs
-<<<<<<< HEAD
-C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\obj\Debug\
-=======
-C:\Users\Ashley\Documents\DiRect\ScreensRepo\obj\Debug\
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\ScreensRepo\obj\Debug\
 ScreensRepo
 none
 false
@@ -16,14 +12,9 @@ DEBUG;TRACE
 
 61744789522
 
-<<<<<<< HEAD
 17762130431
-241251569065
-=======
-17-2118001512
-221710010979
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+231911770520
 LoginScreen.xaml;MainView.xaml;MenuScreen.xaml;NotificationWindow.xaml;OtherView.xaml;RecordView.xaml;
 
-True
+False
 

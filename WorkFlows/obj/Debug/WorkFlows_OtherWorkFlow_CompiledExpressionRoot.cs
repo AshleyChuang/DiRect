@@ -1,100 +1,60 @@
 namespace WorkFlows {
     
-<<<<<<< HEAD
-    #line 20 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\OtherWorkFlow.xaml"
-=======
-    #line 20 "C:\Users\Ashley\Documents\DiRect\WorkFlows\OtherWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 20 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\OtherWorkFlow.xaml"
     using System;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\OtherWorkFlow.xaml"
-=======
-    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\OtherWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 1 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\OtherWorkFlow.xaml"
     using System.Collections;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 21 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\OtherWorkFlow.xaml"
-=======
-    #line 21 "C:\Users\Ashley\Documents\DiRect\WorkFlows\OtherWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 21 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\OtherWorkFlow.xaml"
     using System.Collections.Generic;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\OtherWorkFlow.xaml"
-=======
-    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\OtherWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 1 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\OtherWorkFlow.xaml"
     using System.Activities;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\OtherWorkFlow.xaml"
-=======
-    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\OtherWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 1 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\OtherWorkFlow.xaml"
     using System.Activities.Expressions;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\OtherWorkFlow.xaml"
-=======
-    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\OtherWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 1 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\OtherWorkFlow.xaml"
     using System.Activities.Statements;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 22 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\OtherWorkFlow.xaml"
-=======
-    #line 22 "C:\Users\Ashley\Documents\DiRect\WorkFlows\OtherWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 22 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\OtherWorkFlow.xaml"
     using System.Data;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 23 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\OtherWorkFlow.xaml"
-=======
-    #line 23 "C:\Users\Ashley\Documents\DiRect\WorkFlows\OtherWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 23 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\OtherWorkFlow.xaml"
     using System.Linq;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 24 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\OtherWorkFlow.xaml"
-=======
-    #line 24 "C:\Users\Ashley\Documents\DiRect\WorkFlows\OtherWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 24 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\OtherWorkFlow.xaml"
     using System.Text;
     
     #line default
     #line hidden
     
-<<<<<<< HEAD
-    #line 1 "C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\OtherWorkFlow.xaml"
-=======
-    #line 1 "C:\Users\Ashley\Documents\DiRect\WorkFlows\OtherWorkFlow.xaml"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+    #line 1 "C:\Users\Tracy\Desktop\DiRect-42587d94b8b059d46531114e91c3eeff3e9c568b\WorkFlows\OtherWorkFlow.xaml"
     using System.Activities.XamlIntegration;
     
     #line default
@@ -537,11 +497,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr0GetTree() {
                 
-<<<<<<< HEAD
-                #line 64 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\OTHERWORKFLOW.XAML"
-=======
-                #line 64 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\OTHERWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 64 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\OTHERWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                       ServiceArg;
                 
@@ -553,11 +509,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr0Get() {
                 
-<<<<<<< HEAD
-                #line 64 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\OTHERWORKFLOW.XAML"
-=======
-                #line 64 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\OTHERWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 64 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\OTHERWORKFLOW.XAML"
                 return 
                       ServiceArg;
                 
@@ -573,11 +525,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr0Set(string value) {
                 
-<<<<<<< HEAD
-                #line 64 "C:\USERS\TRACY\DESKTOP\GIT\DIRECT\WORKFLOWS\OTHERWORKFLOW.XAML"
-=======
-                #line 64 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\OTHERWORKFLOW.XAML"
->>>>>>> 42587d94b8b059d46531114e91c3eeff3e9c568b
+                #line 64 "C:\USERS\TRACY\DESKTOP\DIRECT-42587D94B8B059D46531114E91C3EEFF3E9C568B\WORKFLOWS\OTHERWORKFLOW.XAML"
                 
                       ServiceArg = value;
                 
