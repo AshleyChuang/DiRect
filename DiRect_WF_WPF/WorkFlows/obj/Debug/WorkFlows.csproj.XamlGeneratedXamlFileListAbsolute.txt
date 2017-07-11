@@ -1,0 +1,10 @@
+obj\Debug\LoginWorkFlow.g.xaml
+obj\Debug\MenuWorkFlow.g.xaml
+obj\Debug\RecordWorkFlow.g.xaml
+obj\Debug\MainWorkFlow.g.xaml
+obj\Debug\OtherWorkFlow.g.xaml
+obj\Debug\WorkFlows_LoginWorkFlow_BeforeInitializeComponentHelper.txt
+obj\Debug\WorkFlows_MenuWorkFlow_BeforeInitializeComponentHelper.txt
+obj\Debug\WorkFlows_RecordWorkFlow_BeforeInitializeComponentHelper.txt
+obj\Debug\WorkFlows_MainWorkFlow_BeforeInitializeComponentHelper.txt
+obj\Debug\WorkFlows_OtherWorkFlow_BeforeInitializeComponentHelper.txt

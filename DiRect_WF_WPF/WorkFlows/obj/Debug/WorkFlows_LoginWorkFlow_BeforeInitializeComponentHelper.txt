@@ -1,0 +1,2 @@
+LoginWorkFlow.g.xaml
+XamlStaticHelperNamespace._XamlStaticHelper

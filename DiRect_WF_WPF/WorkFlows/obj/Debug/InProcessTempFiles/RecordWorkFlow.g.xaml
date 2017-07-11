@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<local:RecordWorkFlow xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:WorkFlows;assembly=WorkFlows" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Net.Http</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Authenticator</AssemblyReference>
+      <AssemblyReference>ScreensInterfaces</AssemblyReference>
+      <AssemblyReference>ScreensRepo</AssemblyReference>
+      <AssemblyReference>ServiceLocator</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>WorkFlows</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <local:RecordWorkFlow.Implementation>
+    <StateMachine>
+      <StateMachine.InitialState>
+        <State x:Name="__ReferenceID0" DisplayName="Capture Click Event">
+          <State.Entry>
+            <local:CaptureClickEventActivity BookmarkName="CaptureClickEvent">
+              <local:CaptureClickEventActivity.NextState>
+                <OutArgument x:TypeArguments="x:String">
+                  <mca:CSharpReference x:TypeArguments="x:String">vNextState</mca:CSharpReference>
+                </OutArgument>
+              </local:CaptureClickEventActivity.NextState>
+              <local:CaptureClickEventActivity.NextWorkFlow>
+                <OutArgument x:TypeArguments="x:String">
+                  <mca:CSharpReference x:TypeArguments="x:String">vNextWorkFlow</mca:CSharpReference>
+                </OutArgument>
+              </local:CaptureClickEventActivity.NextWorkFlow>
+              <local:CaptureClickEventActivity.Record>
+                <OutArgument x:TypeArguments="x:Object">
+                  <mca:CSharpReference x:TypeArguments="x:Object">vRecord</mca:CSharpReference>
+                </OutArgument>
+              </local:CaptureClickEventActivity.Record>
+            </local:CaptureClickEventActivity>
+          </State.Entry>
+          <State.Transitions>
+            <Transition DisplayName="T1">
+              <Transition.Condition>
+                <mca:CSharpValue x:TypeArguments="x:Boolean">vNextState=="Authenticate Input Data"</mca:CSharpValue>
+              </Transition.Condition>
+              <Transition.To>
+                <State x:Name="__ReferenceID2" DisplayName="Authenticate Input Data">
+                  <State.Entry>
+                    <local:AuthenticateActivity>
+                      <local:AuthenticateActivity.NextState>
+                        <OutArgument x:TypeArguments="x:String">
+                          <mca:CSharpReference x:TypeArguments="x:String">vNextState</mca:CSharpReference>
+                        </OutArgument>
+                      </local:AuthenticateActivity.NextState>
+                      <local:AuthenticateActivity.RecordData>
+                        <InArgument x:TypeArguments="x:Object">
+                          <mca:CSharpValue x:TypeArguments="x:Object">vRecord</mca:CSharpValue>
+                        </InArgument>
+                      </local:AuthenticateActivity.RecordData>
+                      <local:AuthenticateActivity.Result>
+                        <OutArgument x:TypeArguments="x:String">
+                          <mca:CSharpReference x:TypeArguments="x:String">Message</mca:CSharpReference>
+                        </OutArgument>
+                      </local:AuthenticateActivity.Result>
+                    </local:AuthenticateActivity>
+                  </State.Entry>
+                  <State.Transitions>
+                    <Transition DisplayName="T2">
+                      <Transition.Condition>
+                        <mca:CSharpValue x:TypeArguments="x:Boolean">vNextState=="ShowSucessNotification"</mca:CSharpValue>
+                      </Transition.Condition>
+                      <Transition.To>
+                        <State x:Name="__ReferenceID3" DisplayName="ShowSucessNotification">
+                          <State.Entry>
+                            <local:ShowNotificationActivity>
+                              <local:ShowNotificationActivity.Notification>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String">Message</mca:CSharpValue>
+                                </InArgument>
+                              </local:ShowNotificationActivity.Notification>
+                            </local:ShowNotificationActivity>
+                          </State.Entry>
+                          <State.Transitions>
+                            <Transition DisplayName="T3">
+                              <Transition.To>
+                                <State x:Name="__ReferenceID1" DisplayName="FinalState" IsFinal="True">
+                                  <State.Entry>
+                                    <Assign>
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">
+                                          <mca:CSharpReference x:TypeArguments="x:String">ServiceArg</mca:CSharpReference>
+                                        </OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">
+                                          <mca:CSharpValue x:TypeArguments="x:String">vNextWorkFlow</mca:CSharpValue>
+                                        </InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </State.Entry>
+                                </State>
+                              </Transition.To>
+                            </Transition>
+                          </State.Transitions>
+                        </State>
+                      </Transition.To>
+                    </Transition>
+                    <Transition DisplayName="T4">
+                      <Transition.Condition>
+                        <mca:CSharpValue x:TypeArguments="x:Boolean">vNextState=="ShowErrorNotification"</mca:CSharpValue>
+                      </Transition.Condition>
+                      <Transition.To>
+                        <State x:Name="__ReferenceID4" DisplayName="ShowErrorNotification">
+                          <State.Entry>
+                            <local:ShowNotificationActivity>
+                              <local:ShowNotificationActivity.Notification>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String">Message</mca:CSharpValue>
+                                </InArgument>
+                              </local:ShowNotificationActivity.Notification>
+                            </local:ShowNotificationActivity>
+                          </State.Entry>
+                          <State.Transitions>
+                            <Transition DisplayName="T5" To="{x:Reference __ReferenceID0}" />
+                          </State.Transitions>
+                        </State>
+                      </Transition.To>
+                    </Transition>
+                  </State.Transitions>
+                </State>
+              </Transition.To>
+            </Transition>
+            <Transition DisplayName="T6" To="{x:Reference __ReferenceID1}">
+              <Transition.Condition>
+                <mca:CSharpValue x:TypeArguments="x:Boolean">vNextState== "FinalState"</mca:CSharpValue>
+              </Transition.Condition>
+            </Transition>
+          </State.Transitions>
+        </State>
+      </StateMachine.InitialState>
+      <x:Reference>__ReferenceID0</x:Reference>
+      <x:Reference>__ReferenceID2</x:Reference>
+      <x:Reference>__ReferenceID3</x:Reference>
+      <x:Reference>__ReferenceID1</x:Reference>
+      <x:Reference>__ReferenceID4</x:Reference>
+      <StateMachine.Variables>
+        <Variable x:TypeArguments="x:String" Name="vNextState" />
+        <Variable x:TypeArguments="x:Object" Name="vRecord" />
+        <Variable x:TypeArguments="x:String" Name="Message" />
+        <Variable x:TypeArguments="x:String" Name="vNextWorkFlow" />
+      </StateMachine.Variables>
+      <sads:DebugSymbol.Symbol>d0JDOlxVc2Vyc1xUcmFjeVxEZXNrdG9wXFdGX1dQRl9IdW50ZXJcV29ya0Zsb3dzXFJlY29yZFdvcmtGbG93LnhhbWwaNAO6ARICAQE2B6wBDwIBR1APowEXAgElaheKAR8CARt3H4YBJwIBDJIBF58BHwIBAjgLSC0CAVZND01zAgFPqAEPqAFnAgFJUhNiMAIBNGcXZ3oCAS2PARePAXkCASdsG3I8AgEeeSOEASwCAQ6UARuaATwCAQU4OThMAgFpOxE7YQIBY0URRV4CAV1AEUBkAgFXVRlVaQIBQV8ZX2YCATtaGVpeAgE1byFvZgIBH4EBKYEBdAIBFXwpfHkCAQ+XASGXAWYCAQY=</sads:DebugSymbol.Symbol>
+    </StateMachine>
+  </local:RecordWorkFlow.Implementation>
+</local:RecordWorkFlow>

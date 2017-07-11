@@ -1,0 +1,2 @@
+MainWorkFlow.g.xaml
+XamlStaticHelperNamespace._XamlStaticHelper

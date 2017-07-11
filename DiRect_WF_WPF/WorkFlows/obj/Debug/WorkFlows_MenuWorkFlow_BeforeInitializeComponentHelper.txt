@@ -1,0 +1,2 @@
+MenuWorkFlow.g.xaml
+XamlStaticHelperNamespace._XamlStaticHelper
