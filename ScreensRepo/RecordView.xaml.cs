@@ -20,6 +20,9 @@ using GPS;
 using System.Windows.Controls.DataVisualization.Charting;
 using System.Collections.ObjectModel;
 using ScreensRepo.ViewModles;
+using System.ComponentModel;
+using System.Windows.Threading;
+
 namespace ScreensRepo
 {
     /// <summary>
@@ -34,31 +37,39 @@ namespace ScreensRepo
         public ListOfLocations locations { get; set; }
         int currLocation = 1;
         public ObservableCollection<WaterLevelTimeStamp> waterLevel { get; set; }
+        
         public RecordView()
         {
             this.DataContext = this;
+            startclock();
             locations = ListOfLocations.GetInstance();
             waterLevel = locations.Locations[currLocation].WaterLevelTimeStamps;
             myLocation = new Location();
             myLocation.GetLocationEvent();
             InitializeComponent();
-            DateTextBox.Text = DateTime.Now.ToString("MM/dd/yyyy");
-            TimeTextBox.Text = DateTime.Now.ToString("HH:mm:ss");
+           
             Model = locations.Locations[currLocation];
+
             myDateTimeAxis.Interval = 0.5;
             myDateTimeAxis.IntervalType = DateTimeIntervalType.Hours;
             DateTime dateNow = DateTime.Now;
             myDateTimeAxis.Minimum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 0, 0, 0);
             myDateTimeAxis.Maximum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 23, 59, 59);
-            //myDateTimeAxis.Minimum = Model.WaterLevelTimeStamps.Min(i => i.Date).AddHours(-1);
-            //myDateTimeAxis.Maximum = Model.WaterLevelTimeStamps.Max(i => i.Date).AddHours(1);
             myLinearAxis.Maximum = Model.WaterLevelTimeStamps.Max(i => i.Value) + 5;
         }
-        private void LineSeriesDataPoint_MouseLeftButtonDown(object sender, RoutedEventArgs e)
+        // Timer
+        private void startclock()
         {
-            areaDataPoint = sender as AreaDataPoint;
-            IsMouseLeftButtonDown = true;
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += tickevent;
+            timer.Start();
         }
+        private void tickevent(Object sender, EventArgs e)
+        {
+            TimeTextBox.Text = DateTime.Now.ToString();
+        }
+        // Map
         private void mapView_Loaded(object sender, RoutedEventArgs e)
         {
 
@@ -81,7 +92,6 @@ namespace ScreensRepo
 
         }
 
-
         private void Click_On_Save_Button(object sender, EventArgs e)
         {
 
@@ -97,6 +107,12 @@ namespace ScreensRepo
         {
             return "RecordWorkFlow";
 
+        }
+        // Chart
+        private void LineSeriesDataPoint_MouseLeftButtonDown(object sender, RoutedEventArgs e)
+        {
+            areaDataPoint = sender as AreaDataPoint;
+            IsMouseLeftButtonDown = true;
         }
         private WaterLevelTimeStamp getMouseTransformData()
         {

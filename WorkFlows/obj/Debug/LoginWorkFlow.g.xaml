@@ -76,7 +76,7 @@
       <StateMachine.Variables>
         <Variable x:TypeArguments="x:String" Name="vNextWorkFlow" />
       </StateMachine.Variables>
-      <sads:DebugSymbol.Symbol>9xCKKxk4aBlku57YesqhCxUAUkM6XFVzZXJzXEFzaGxleVxEb3dubG9hZHNcRGlSZWN0X1dGX1dQRlxEaVJlY3RfV0ZfV1BGXFdvcmtGbG93c1xMb2dpbldvcmtGbG93LnhhbWwJNANeEgIBATYHVg8CAQtDD1IXAgECOAs+JQIBDkUTUBwCAQQ4MTg4AgESOxE7ZAIBD00ZTWQCAQhIGUhpAgEF</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xCKKxk4aBlku57YesqhCxUAPUM6XFVzZXJzXEFzaGxleVxEb2N1bWVudHNcRGlSZWN0XFdvcmtGbG93c1xMb2dpbldvcmtGbG93LnhhbWwJNANeEgIBATYHVg8CAQtDD1IXAgECOAs+JQIBDkUTUBwCAQQ4MTg4AgESOxE7ZAIBD00ZTWQCAQhIGUhpAgEF</sads:DebugSymbol.Symbol>
     </StateMachine>
   </local:LoginWorkFlow.Implementation>
 </local:LoginWorkFlow>
