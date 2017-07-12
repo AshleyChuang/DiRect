@@ -119,7 +119,7 @@
                 </ScrollViewer>
                 <StackPanel  x:Name="Timer" Orientation="Horizontal" HorizontalAlignment="Left">
                     <TextBlock x:Name="TimeTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Time: " />
-                    <TextBox x:Name="TimeTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="" IsReadOnly="False" />
+                    <TextBox x:Name="TimeTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="" IsReadOnly="True" />
 
                 </StackPanel>
 
@@ -130,11 +130,11 @@
                     </Grid.ColumnDefinitions>
                     <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left" >
                         <TextBlock x:Name="Latitude" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Latitude: " Margin="10,10,10,10" />
-                        <TextBox x:Name="LatitudeTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text=""  Width="120" Margin="10,10,10,10"/>
+                        <TextBox x:Name="LatitudeTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text=""  Width="120" Margin="10,10,10,10" IsReadOnly="True"/>
                     </StackPanel>
                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
                         <TextBlock x:Name="Longitude"   TextWrapping="Wrap" Text="Longitude: " HorizontalAlignment="Left" Margin="10,10,10,10"/>
-                        <TextBox x:Name="LongitudeTextBox" Height="23" TextWrapping="Wrap" Text=""  Width="120" HorizontalAlignment="Left" Margin="10,10,10,10"/>
+                        <TextBox x:Name="LongitudeTextBox" Height="23" TextWrapping="Wrap" Text=""  Width="120" HorizontalAlignment="Left" Margin="10,10,10,10" IsReadOnly="True"/>
                     </StackPanel>
                 </Grid>
                 <!-- 

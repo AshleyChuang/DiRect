@@ -72,6 +72,8 @@ namespace ScreensRepo
             Save_Button.Visibility = Visibility.Hidden;
             myDateTimeAxis.Minimum = DateTime.Now.AddMinutes(-20);
             myDateTimeAxis.Maximum = DateTime.Now.AddMinutes(20);
+            myLinearAxis.Maximum = 30.0;
+            myLinearAxis.Minimum = 0;
             myLineSeries.ItemsSource = null;
         }
         void addPushPin()
@@ -111,34 +113,24 @@ namespace ScreensRepo
         private void Click_On_Push_Pin(object sender, EventArgs e)
         {
             Pushpin clickedPin = (Pushpin)sender;
+            if (Convert.ToInt32(clickedPin.Tag) < 0)
+            {
+                return;
+            }
             clickedPinTag = Convert.ToInt32(clickedPin.Tag);
             Debug.WriteLine("Click Push Pin");
             Debug.WriteLine(clickedPinTag);
-
+            
             for (int i = 0; i < pushpins.Count(); i++)
                 pushpins[i].Background = new SolidColorBrush(Color.FromRgb(0, 0, 200));
-            if (clickedPinTag >= 0)
-            {
-                ScrollArea.Visibility = Visibility.Visible;
-                Timer.Visibility = Visibility.Visible;
-                coordinates.Visibility = Visibility.Visible;
-                waterlevel.Visibility = Visibility.Visible;
-                Save_Button.Visibility = Visibility.Visible;
-                clickedPin.Background = new SolidColorBrush(Color.FromRgb(2, 176, 0));
-                waterLevel = locations.Locations[Convert.ToInt32(clickedPin.Tag)].WaterLevelTimeStamps;
-                //myLinearAxis.Maximum = waterLevel.Max(i => i.Value) + 5;
-                //myLinearAxis.Minimum = waterLevel.Min(i => i.Value) + 5;
-                myLineSeries.ItemsSource = waterLevel;
-            }
-            else
-            {
-                ScrollArea.Visibility = Visibility.Hidden;
-                Timer.Visibility = Visibility.Hidden;
-                coordinates.Visibility = Visibility.Hidden;
-                waterlevel.Visibility = Visibility.Hidden;
-                Save_Button.Visibility = Visibility.Hidden;
-                myLineSeries.ItemsSource = null;
-            }
+            ScrollArea.Visibility = Visibility.Visible;
+            Timer.Visibility = Visibility.Visible;
+            coordinates.Visibility = Visibility.Visible;
+            waterlevel.Visibility = Visibility.Visible;
+            Save_Button.Visibility = Visibility.Visible;
+            clickedPin.Background = new SolidColorBrush(Color.FromRgb(2, 176, 0));
+            waterLevel = locations.Locations[Convert.ToInt32(clickedPin.Tag)].WaterLevelTimeStamps;
+            myLineSeries.ItemsSource = waterLevel;
         }
         private void startclock()
         {
