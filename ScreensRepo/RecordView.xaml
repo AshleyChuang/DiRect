@@ -60,7 +60,7 @@
             <Setter Property="ChartAreaStyle">
                 <Setter.Value>
                     <Style TargetType="chartingprimitives:EdgePanel">
-                        <Setter Property="Width" Value="2400"/>
+                        <Setter Property="Width" Value="1800"/>
                     </Style>
                 </Setter.Value>
             </Setter>
@@ -74,12 +74,19 @@
         </Style>
     </UserControl.Resources>
     <Grid Background="White">
-        <ScrollViewer>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <m:Map x:Name="mapView" CredentialsProvider="KEEEDTBMuatP82T0lBaz~LyodepcBdLJbXPBIPbavGQ~An_AVM9YZUJmROHUkFUGL2ujCmxsUDNCpps94i5ACIJYMuB9I-Ex3jihxTYdpj1x"
+                           Height="300" />
+        </Grid>
+        <ScrollViewer
+                VerticalScrollBarVisibility="Visible"
+                CanContentScroll="False"
+                Grid.Row="1">
             <StackPanel>
-                <Grid>
-                    <m:Map x:Name="mapView" CredentialsProvider="KEEEDTBMuatP82T0lBaz~LyodepcBdLJbXPBIPbavGQ~An_AVM9YZUJmROHUkFUGL2ujCmxsUDNCpps94i5ACIJYMuB9I-Ex3jihxTYdpj1x"
-                           Height="400" />
-                </Grid>
                 <ScrollViewer
                     x:Name="ScrollArea" BorderThickness="0"
                     HorizontalScrollBarVisibility="Visible"
@@ -87,7 +94,7 @@
                     <chartingToolkit:Chart
                         Margin="0,0,0,0" Name="chart1"
                         VerticalAlignment="Top"
-                        Height="300" Width="auto"
+                        Height="200" Width="auto"
                         Padding="0"
                         Style="{StaticResource AreaChart}">
 
@@ -115,7 +122,7 @@
                         </chartingToolkit:Chart.PlotAreaStyle>
 
                     </chartingToolkit:Chart>
-                    
+
                 </ScrollViewer>
                 <StackPanel  x:Name="Timer" Orientation="Horizontal" HorizontalAlignment="Left">
                     <TextBlock x:Name="TimeTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Time: " />
@@ -160,6 +167,7 @@
                 <Button x:Name="Save_Button" Content="Save" Click="Click_On_Save_Button" HorizontalAlignment="Left"  Margin="10,10,10,10" VerticalAlignment="Top" Width="75"/>
             </StackPanel>
         </ScrollViewer>
+
 
     </Grid>
 </src:MenuViewBase>
