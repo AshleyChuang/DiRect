@@ -37,8 +37,8 @@ namespace ScreensRepo
         AreaDataPoint areaDataPoint;
         private LocationData Model;// { get; set; }
         public ListOfLocations locations { get; set; }
-        int currLocation = 1;
         public ObservableCollection<WaterLevelTimeStamp> waterLevel { get; set; }
+        public ObservableCollection<Pushpin> pushpins { get; set; }
         private int clickedPinTag = -1;
         public RecordView()
         {
@@ -47,12 +47,11 @@ namespace ScreensRepo
             watcher.PositionChanged += new EventHandler<GeoPositionChangedEventArgs<GeoCoordinate>>(watcher_PositionChanged);
             watcher.TryStart(false, TimeSpan.FromMilliseconds(2000));
 
-
+            pushpins = new ObservableCollection<Pushpin>();
             this.DataContext = this;
             startclock();
             locations = ListOfLocations.GetInstance();
             
-            waterLevel = locations.Locations[currLocation].WaterLevelTimeStamps;
             
             InitializeComponent();
 
@@ -60,15 +59,20 @@ namespace ScreensRepo
             mapView.ZoomLevel = 17.0;
            
             addPushPin();
-            Model = locations.Locations[currLocation];
 
             myDateTimeAxis.Interval = 1.0/60.0;
             myDateTimeAxis.IntervalType = DateTimeIntervalType.Hours;
             DateTime dateNow = DateTime.Now;
             //myDateTimeAxis.Minimum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 0, 0, 0);
             //myDateTimeAxis.Maximum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 23, 59, 59);
+            ScrollArea.Visibility = Visibility.Hidden;
+            Timer.Visibility = Visibility.Hidden;
+            coordinates.Visibility = Visibility.Hidden;
+            waterlevel.Visibility = Visibility.Hidden;
+            Save_Button.Visibility = Visibility.Hidden;
             myDateTimeAxis.Minimum = DateTime.Now.AddMinutes(-20);
             myDateTimeAxis.Maximum = DateTime.Now.AddMinutes(20);
+            myLineSeries.ItemsSource = null;
         }
         void addPushPin()
         {
@@ -85,7 +89,7 @@ namespace ScreensRepo
                 pin.Background = new SolidColorBrush(Color.FromRgb(0,0,200));
                 pin.Location = pinLocation;
                 pin.MouseLeftButtonDown += Click_On_Push_Pin;
-                // Adds the pushpin to the map.
+                pushpins.Add(pin);
                 mapView.Children.Add(pin);
             }
         }
@@ -102,6 +106,7 @@ namespace ScreensRepo
             // Adds the pushpin to the map.
             mapView.Children.Add(pin);
         }
+        
         // Timer
         private void Click_On_Push_Pin(object sender, EventArgs e)
         {
@@ -109,12 +114,30 @@ namespace ScreensRepo
             clickedPinTag = Convert.ToInt32(clickedPin.Tag);
             Debug.WriteLine("Click Push Pin");
             Debug.WriteLine(clickedPinTag);
+
+            for (int i = 0; i < pushpins.Count(); i++)
+                pushpins[i].Background = new SolidColorBrush(Color.FromRgb(0, 0, 200));
             if (clickedPinTag >= 0)
             {
+                ScrollArea.Visibility = Visibility.Visible;
+                Timer.Visibility = Visibility.Visible;
+                coordinates.Visibility = Visibility.Visible;
+                waterlevel.Visibility = Visibility.Visible;
+                Save_Button.Visibility = Visibility.Visible;
+                clickedPin.Background = new SolidColorBrush(Color.FromRgb(2, 176, 0));
                 waterLevel = locations.Locations[Convert.ToInt32(clickedPin.Tag)].WaterLevelTimeStamps;
                 //myLinearAxis.Maximum = waterLevel.Max(i => i.Value) + 5;
                 //myLinearAxis.Minimum = waterLevel.Min(i => i.Value) + 5;
                 myLineSeries.ItemsSource = waterLevel;
+            }
+            else
+            {
+                ScrollArea.Visibility = Visibility.Hidden;
+                Timer.Visibility = Visibility.Hidden;
+                coordinates.Visibility = Visibility.Hidden;
+                waterlevel.Visibility = Visibility.Hidden;
+                Save_Button.Visibility = Visibility.Hidden;
+                myLineSeries.ItemsSource = null;
             }
         }
         private void startclock()
