@@ -100,23 +100,40 @@
                             </local:ShowNotificationActivity>
                           </State.Entry>
                           <State.Transitions>
-                            <Transition DisplayName="T3">
+                            <Transition DisplayName="T8">
                               <Transition.To>
-                                <State x:Name="__ReferenceID1" DisplayName="FinalState" IsFinal="True">
+                                <State x:Name="__ReferenceID5" DisplayName="StoreDataToChart">
                                   <State.Entry>
-                                    <Assign>
-                                      <Assign.To>
-                                        <OutArgument x:TypeArguments="x:String">
-                                          <mca:CSharpReference x:TypeArguments="x:String">ServiceArg</mca:CSharpReference>
-                                        </OutArgument>
-                                      </Assign.To>
-                                      <Assign.Value>
-                                        <InArgument x:TypeArguments="x:String">
-                                          <mca:CSharpValue x:TypeArguments="x:String">vNextWorkFlow</mca:CSharpValue>
+                                    <local:StoreDataToChartActivity>
+                                      <local:StoreDataToChartActivity.RecordData>
+                                        <InArgument x:TypeArguments="x:Object">
+                                          <mca:CSharpValue x:TypeArguments="x:Object">vRecord</mca:CSharpValue>
                                         </InArgument>
-                                      </Assign.Value>
-                                    </Assign>
+                                      </local:StoreDataToChartActivity.RecordData>
+                                    </local:StoreDataToChartActivity>
                                   </State.Entry>
+                                  <State.Transitions>
+                                    <Transition DisplayName="T7">
+                                      <Transition.To>
+                                        <State x:Name="__ReferenceID1" DisplayName="FinalState" IsFinal="True">
+                                          <State.Entry>
+                                            <Assign>
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:String">
+                                                  <mca:CSharpReference x:TypeArguments="x:String">ServiceArg</mca:CSharpReference>
+                                                </OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:String">
+                                                  <mca:CSharpValue x:TypeArguments="x:String">vNextWorkFlow</mca:CSharpValue>
+                                                </InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                          </State.Entry>
+                                        </State>
+                                      </Transition.To>
+                                    </Transition>
+                                  </State.Transitions>
                                 </State>
                               </Transition.To>
                             </Transition>
@@ -162,13 +179,14 @@
       <x:Reference>__ReferenceID3</x:Reference>
       <x:Reference>__ReferenceID1</x:Reference>
       <x:Reference>__ReferenceID4</x:Reference>
+      <x:Reference>__ReferenceID5</x:Reference>
       <StateMachine.Variables>
         <Variable x:TypeArguments="x:String" Name="vNextState" />
         <Variable x:TypeArguments="x:Object" Name="vRecord" />
         <Variable x:TypeArguments="x:String" Name="Message" />
         <Variable x:TypeArguments="x:String" Name="vNextWorkFlow" />
       </StateMachine.Variables>
-      <sads:DebugSymbol.Symbol>9xAniussnxmJb/FeQRphusBlPkM6XFVzZXJzXEFzaGxleVxEb2N1bWVudHNcRGlSZWN0XFdvcmtGbG93c1xSZWNvcmRXb3JrRmxvdy54YW1sGjQDugESAgEBNgesAQ8CAUdQD6MBFwIBJWoXigEfAgEbdx+GAScCAQySARefAR8CAQI4C0gtAgFWTQ9NcwIBT6gBD6gBZwIBSVITYjACATRnF2d6AgEtjwEXjwF5AgEnbBtyPAIBHnkjhAEsAgEOlAEbmgE8AgEFODk4TAIBaTsRO2ECAWNFEUVeAgFdQBFAZAIBV1UZVWkCAUFfGV9mAgE7WhlaXgIBNW8hb2YCAR+BASmBAXQCARV8KXx5AgEPlwEhlwFmAgEG</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xBUqqS8NoEXPS6Pdbv0SjzZPkM6XFVzZXJzXEFzaGxleVxEb2N1bWVudHNcRGlSZWN0XFdvcmtGbG93c1xSZWNvcmRXb3JrRmxvdy54YW1sHTQDzAESAgEBNge9AQ8CAVFQD7QBFwIBL2oXmwEfAgElhAEnkwEvAgEWowEXsAEfAgEMdx+XAScCAQI4C0gtAgFgTQ9NcwIBWbkBD7kBZwIBU1ITYjACAT5nF2d6AgE3oAEXoAF5AgExbBtyPAIBKIYBK5EBNAIBGKUBG6sBPAIBD3kjf0QCAQU4OThMAgFzOxE7YQIBbUURRV4CAWdAEUBkAgFhVRlVaQIBS18ZX2YCAUVaGVpeAgE/byFvZgIBKY4BMY4BfAIBH4kBMYkBgQECARmoASGoAWYCARB8KXxuAgEG</sads:DebugSymbol.Symbol>
     </StateMachine>
   </local:RecordWorkFlow.Implementation>
 </local:RecordWorkFlow>

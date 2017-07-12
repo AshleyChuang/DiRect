@@ -21,7 +21,7 @@ namespace RepresentationLayer
         private MainView mainView;
         private OtherView otherView;
         private RecordView recordView;
-       
+
         public ScreensRepo.Models.Menu MyMenu { get; }
 
         public WPFUserInterface() {

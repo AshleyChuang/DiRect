@@ -1,20 +1,21 @@
 ﻿using ScreensRepo.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ScreensRepo.ViewModles
 {
-    class RecordViewModel
+    public class RecordViewModel
     {
         public RecordViewModel()
         {
 
 
         }
-        static public FloodsRecord SaveRecord(string address, string latitude, string longitude, string time, string waterLevel)
+        static public FloodsRecord SaveRecord(int locationID,string address, string latitude, string longitude, string time, string waterLevel)
         {
             FloodsRecord record = new FloodsRecord();
             record.Address = address;
@@ -22,16 +23,17 @@ namespace ScreensRepo.ViewModles
             record.Longitude = longitude;
             record.Time = time;
             record.WaterLevel = waterLevel;
-            AddToLocationList(1,time,waterLevel);
+            record.LocationID = locationID;
+           // AddToLocationList(1,time,waterLevel);
             return record;
 
         }
 
-        static private void AddToLocationList(int locationID, string time, string waterLevel)
+        static public void AddToLocationList(int locationID, string time, string waterLevel)
         {
             ListOfLocations locationList=ListOfLocations.GetInstance();
              Convert.ToDateTime(time);
-        
+            Debug.WriteLine("record2= "+ time+" "+ waterLevel);
             locationList.Locations[1].addWaterLevel(Convert.ToDateTime(time), Convert.ToDouble(waterLevel));
 
 
