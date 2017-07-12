@@ -13,5 +13,6 @@ namespace ScreensRepo.Models
         public string Latitude { get; set; }
         public string WaterLevel { get; set; }
         public string Time { get; set; }
+        public int LocationID { get; set; }
     }
 }

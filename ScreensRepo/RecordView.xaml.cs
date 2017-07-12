@@ -120,7 +120,7 @@ namespace ScreensRepo
         {
 
             Debug.WriteLine("click save button");
-            FloodsRecord record = RecordViewModel.SaveRecord("address", LatitudeTextBox.Text, LongitudeTextBox
+            FloodsRecord record = RecordViewModel.SaveRecord(1,"address", LatitudeTextBox.Text, LongitudeTextBox
                 .Text, TimeTextBox.Text, WaterLevelTextBox.Text);
          
 
