@@ -24,7 +24,7 @@ namespace ScreensRepo.ViewModles
             record.Time = time;
             record.WaterLevel = waterLevel;
             record.LocationID = locationID;
-           // AddToLocationList(1,time,waterLevel);
+            //AddToLocationList(locationID,time,waterLevel);
             return record;
 
         }
@@ -34,7 +34,7 @@ namespace ScreensRepo.ViewModles
             ListOfLocations locationList=ListOfLocations.GetInstance();
              Convert.ToDateTime(time);
             Debug.WriteLine("record2= "+ time+" "+ waterLevel);
-            locationList.Locations[1].addWaterLevel(Convert.ToDateTime(time), Convert.ToDouble(waterLevel));
+            locationList.Locations[locationID].addWaterLevel(Convert.ToDateTime(time), Convert.ToDouble(waterLevel));
 
 
         }

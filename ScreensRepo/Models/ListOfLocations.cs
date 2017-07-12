@@ -18,6 +18,8 @@ namespace ScreensRepo.Models
             for (int i = 0; i < dataFromServer.data.LocationsFromServer.Count(); i++)
             {
                 Locations.Add(new LocationData() { Longitude = dataFromServer.data.LocationsFromServer[i].longitude, Latitude = dataFromServer.data.LocationsFromServer[i].latitude });
+                //Locations[i].WaterLevelTimeStamps.Add(new WaterLevelTimeStamp(DateTime.Now.AddHours(i * 0.5), i + 10));
+                //Locations[i].WaterLevelTimeStamps.Add(new WaterLevelTimeStamp(DateTime.Now.AddHours((i+1) * 0.5), (i+1) + 10));
             } 
         }
         static ListOfLocations _instance;

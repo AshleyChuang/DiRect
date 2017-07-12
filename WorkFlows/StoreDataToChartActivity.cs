@@ -20,7 +20,7 @@ namespace WorkFlows
 
             FloodsRecord record = (FloodsRecord)e.SavedRecord;
             Debug.WriteLine("record="+ record.Time+"  " + record.WaterLevel + "  " + record.LocationID);
-            RecordViewModel.AddToLocationList(record.LocationID, record.Time,record.WaterLevel);
+            //RecordViewModel.AddToLocationList(record.LocationID, record.Time,record.WaterLevel);
 
      
 

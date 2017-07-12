@@ -1091,7 +1091,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr4GetTree() {
                 
-                #line 184 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 165 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
               vNextState== "FinalState";
                 
@@ -1103,7 +1103,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr4Get() {
                 
-                #line 184 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 165 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
               vNextState== "FinalState";
                 
@@ -1358,7 +1358,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr9GetTree() {
                 
-                #line 159 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 140 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                       vNextState=="ShowErrorNotification";
                 
@@ -1370,7 +1370,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr9Get() {
                 
-                #line 159 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 140 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                       vNextState=="ShowErrorNotification";
                 
@@ -1559,9 +1559,9 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr12GetTree() {
                 
-                #line 136 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 173 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
-                                                ServiceArg;
+                        ServiceArg;
                 
                 #line default
                 #line hidden
@@ -1571,9 +1571,9 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr12Get() {
                 
-                #line 136 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 173 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
-                                                ServiceArg;
+                        ServiceArg;
                 
                 #line default
                 #line hidden
@@ -1587,9 +1587,9 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr12Set(string value) {
                 
-                #line 136 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 173 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 
-                                                ServiceArg = value;
+                        ServiceArg = value;
                 
                 #line default
                 #line hidden
@@ -1652,9 +1652,9 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr11GetTree() {
                 
-                #line 141 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 178 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
-                                                vNextWorkFlow;
+                        vNextWorkFlow;
                 
                 #line default
                 #line hidden
@@ -1664,9 +1664,9 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr11Get() {
                 
-                #line 141 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 178 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
-                                                vNextWorkFlow;
+                        vNextWorkFlow;
                 
                 #line default
                 #line hidden
@@ -1777,7 +1777,7 @@ namespace WorkFlows {
             
             internal System.Linq.Expressions.Expression @__Expr13GetTree() {
                 
-                #line 167 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 148 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                                 Message;
                 
@@ -1789,7 +1789,7 @@ namespace WorkFlows {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr13Get() {
                 
-                #line 167 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
+                #line 148 "C:\USERS\ASHLEY\DOCUMENTS\DIRECT\WORKFLOWS\RECORDWORKFLOW.XAML"
                 return 
                                 Message;
                 

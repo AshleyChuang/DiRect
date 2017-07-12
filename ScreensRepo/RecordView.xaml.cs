@@ -39,7 +39,7 @@ namespace ScreensRepo
         public ListOfLocations locations { get; set; }
         int currLocation = 1;
         public ObservableCollection<WaterLevelTimeStamp> waterLevel { get; set; }
-        
+        private int clickedPinTag = -1;
         public RecordView()
         {
             GeoCoordinateWatcher watcher;
@@ -62,11 +62,13 @@ namespace ScreensRepo
             addPushPin();
             Model = locations.Locations[currLocation];
 
-            myDateTimeAxis.Interval = 0.5;
+            myDateTimeAxis.Interval = 1.0/60.0;
             myDateTimeAxis.IntervalType = DateTimeIntervalType.Hours;
             DateTime dateNow = DateTime.Now;
-            myDateTimeAxis.Minimum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 0, 0, 0);
-            myDateTimeAxis.Maximum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 23, 59, 59);
+            //myDateTimeAxis.Minimum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 0, 0, 0);
+            //myDateTimeAxis.Maximum = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 23, 59, 59);
+            myDateTimeAxis.Minimum = DateTime.Now.AddMinutes(-20);
+            myDateTimeAxis.Maximum = DateTime.Now.AddMinutes(20);
         }
         void addPushPin()
         {
@@ -79,6 +81,7 @@ namespace ScreensRepo
 
                 // The pushpin to add to the map.
                 Pushpin pin = new Pushpin();
+                pin.Tag = i.ToString();
                 pin.Background = new SolidColorBrush(Color.FromRgb(0,0,200));
                 pin.Location = pinLocation;
                 pin.MouseLeftButtonDown += Click_On_Push_Pin;
@@ -95,15 +98,24 @@ namespace ScreensRepo
             Pushpin pin = new Pushpin();
             pin.Location = pinLocation;
             pin.MouseLeftButtonDown += Click_On_Push_Pin;
-
+            pin.Tag = "-1";
             // Adds the pushpin to the map.
             mapView.Children.Add(pin);
         }
         // Timer
         private void Click_On_Push_Pin(object sender, EventArgs e)
         {
+            Pushpin clickedPin = (Pushpin)sender;
+            clickedPinTag = Convert.ToInt32(clickedPin.Tag);
             Debug.WriteLine("Click Push Pin");
-
+            Debug.WriteLine(clickedPinTag);
+            if (clickedPinTag >= 0)
+            {
+                waterLevel = locations.Locations[Convert.ToInt32(clickedPin.Tag)].WaterLevelTimeStamps;
+                //myLinearAxis.Maximum = waterLevel.Max(i => i.Value) + 5;
+                //myLinearAxis.Minimum = waterLevel.Min(i => i.Value) + 5;
+                myLineSeries.ItemsSource = waterLevel;
+            }
         }
         private void startclock()
         {
@@ -120,12 +132,15 @@ namespace ScreensRepo
        
         private void Click_On_Save_Button(object sender, EventArgs e)
         {
+            FloodsRecord record = RecordViewModel.SaveRecord(clickedPinTag, "address", LatitudeTextBox.Text, LongitudeTextBox
+                    .Text, TimeTextBox.Text, WaterLevelTextBox.Text);
+            if (WaterLevelTextBox.Text != "") {
+                Debug.WriteLine("click save button");
+                RecordViewModel.AddToLocationList(clickedPinTag,TimeTextBox.Text, WaterLevelTextBox.Text);
 
-            Debug.WriteLine("click save button");
-            FloodsRecord record = RecordViewModel.SaveRecord(1,"address", LatitudeTextBox.Text, LongitudeTextBox
-                .Text, TimeTextBox.Text, WaterLevelTextBox.Text);
-         
-
+                WaterLevelTextBox.Text = "";
+                
+            }
             RaiseUserInputReadyEvent(new SaveButtonClickedEventArgs(record));
 
         }
@@ -134,46 +149,6 @@ namespace ScreensRepo
             return "RecordWorkFlow";
 
         }
-        // Chart
-        private void LineSeriesDataPoint_MouseLeftButtonDown(object sender, RoutedEventArgs e)
-        {
-            areaDataPoint = sender as AreaDataPoint;
-            IsMouseLeftButtonDown = true;
-        }
-        private WaterLevelTimeStamp getMouseTransformData()
-        {
-            var p = Mouse.GetPosition(this.myLineSeries);
-            var left = Model.WaterLevelTimeStamps.Min(i => i.Date);
-            var right =  Model.WaterLevelTimeStamps.Max(i => i.Date);
-            var top = Model.WaterLevelTimeStamps.Max(i => i.Value);
-            var bottom = Model.WaterLevelTimeStamps.Min(i => i.Value);
-
-            var hRange = right - left;
-            var vRange = top - bottom;
-
-            //ranges in the pixels
-            var width = this.myLineSeries.ActualWidth;
-            var height = this.myLineSeries.ActualHeight;
-
-            //from the pixels to the real value
-            var currentX = left + TimeSpan.FromTicks((long)(hRange.Ticks * p.X / width));
-            var currentY = top - vRange * p.Y / height;
-
-            return new WaterLevelTimeStamp(currentX, currentY);
-        }
-        private void chart1_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (IsMouseLeftButtonDown && e.LeftButton == System.Windows.Input.MouseButtonState.Pressed)
-            {
-                var dataPoint = getMouseTransformData();
-                var a = Model.WaterLevelTimeStamps.Where(i => i.Date == (DateTime)areaDataPoint.IndependentValue);
-                var index =  Model.WaterLevelTimeStamps.IndexOf(a.First());
-                Model.WaterLevelTimeStamps[index] = new WaterLevelTimeStamp((DateTime)areaDataPoint.IndependentValue, (int)dataPoint.Value);
-            }
-        }
-        private void chart1_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-            IsMouseLeftButtonDown = false;
-        }
+        
     }
 }

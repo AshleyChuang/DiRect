@@ -32,7 +32,6 @@
             <Setter Property="DataPointStyle">
                 <Setter.Value>
                     <Style TargetType="chartingToolkit:AreaDataPoint" BasedOn="{StaticResource BlueAreaSeriesStyle}">
-                        <EventSetter Event="Control.MouseLeftButtonDown" Handler="LineSeriesDataPoint_MouseLeftButtonDown"/>
                         <Setter Property="Template">
                             <Setter.Value>
                                 <ControlTemplate TargetType="chartingToolkit:AreaDataPoint">
@@ -89,8 +88,6 @@
                         Margin="0,0,0,0" Name="chart1"
                         VerticalAlignment="Top"
                         Height="300" Width="auto"
-                        MouseMove="chart1_MouseMove"
-                        MouseUp="chart1_MouseUp"
                         Padding="0"
                         Style="{StaticResource AreaChart}">
 
@@ -122,7 +119,7 @@
                 </ScrollViewer>
                 <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left">
                     <TextBlock x:Name="TimeTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Time: " />
-                    <TextBox x:Name="TimeTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="" IsReadOnly="True" />
+                    <TextBox x:Name="TimeTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="" IsReadOnly="False" />
 
                 </StackPanel>
 
