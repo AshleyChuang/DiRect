@@ -72,6 +72,8 @@
     <Compile Include="MenuScreen.xaml.cs">
       <DependentUpon>MenuScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\DataFromServer.cs" />
+    <Compile Include="Models\FakeData.cs" />
     <Compile Include="Models\ListOfLocations.cs" />
     <Compile Include="Models\LocationData.cs" />
     <Compile Include="Models\Menu.cs" />

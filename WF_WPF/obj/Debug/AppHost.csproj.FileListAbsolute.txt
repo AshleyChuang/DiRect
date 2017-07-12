@@ -274,8 +274,6 @@ C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\Authenticator.dll
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\ScreensRepo.dll
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\GPS.dll
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
-C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\GMap.NET.WindowsPresentation.dll
-C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\GMap.NET.Core.dll
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\WPFToolkit.dll
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\ScreensInterfaces.pdb
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\ServiceLocator.pdb
@@ -284,8 +282,6 @@ C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\RepresentationLayer.pdb
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\Authenticator.pdb
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\ScreensRepo.pdb
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\GPS.pdb
-C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
-C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\WPFToolkit.pdb
 C:\Users\Ashley\Documents\DiRect\WF_WPF\obj\Debug\AppHost.csprojResolveAssemblyReference.cache
 C:\Users\Ashley\Documents\DiRect\WF_WPF\obj\Debug\MainWindow.g.cs
 C:\Users\Ashley\Documents\DiRect\WF_WPF\obj\Debug\App.g.cs
@@ -357,3 +353,6 @@ C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\obj\Debug\MainWindow.baml
 C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\obj\Debug\AppHost.g.resources
 C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\obj\Debug\AppHost.Properties.Resources.resources
 C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\obj\Debug\AppHost.csproj.GenerateResource.Cache
+C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\WPFToolkit.pdb

@@ -249,3 +249,4 @@ C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\obj\Debug\RecordView.baml
 C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\obj\Debug\ScreensRepo.g.resources
 C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\obj\Debug\ScreensRepo.dll
 C:\Users\Tracy\Desktop\Git\DiRect\ScreensRepo\obj\Debug\ScreensRepo.pdb
+C:\Users\Ashley\Documents\DiRect\ScreensRepo\bin\Debug\Microsoft.Maps.MapControl.WPF.dll

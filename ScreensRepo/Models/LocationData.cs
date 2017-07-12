@@ -13,11 +13,7 @@ namespace ScreensRepo.Models
         {
             Random rd = new Random();
             WaterLevelTimeStamps = new ObservableCollection<WaterLevelTimeStamp>();
-                //Enumerable.Range(0, 50)
-                //.Select(i => new WaterLevelTimeStamp(DateTime.Now.AddHours(i * 0.5), 0)));
-            //WaterLevelTimeStamps = new ObservableCollection<WaterLevelTimeStamp>(
-             //       Enumerable.Range(0, 50)
-              //      .Select(i => new WaterLevelTimeStamp(DateTime.Now.AddHours(i * 0.5), rd.Next(10, 50))));
+
         }
         public ObservableCollection<WaterLevelTimeStamp> WaterLevelTimeStamps { get; set; }
 

@@ -10,28 +10,15 @@ namespace ScreensRepo.Models
     public class ListOfLocations
     {
         public ObservableCollection<LocationData> Locations { get; set; }
+        public DataFromServer dataFromServer { get; set; }
         public ListOfLocations()
         {
-            Locations = new ObservableCollection<LocationData>()
+            dataFromServer = new DataFromServer();
+            Locations = new ObservableCollection<LocationData>();
+            for (int i = 0; i < dataFromServer.data.LocationsFromServer.Count(); i++)
             {
-                new LocationData()
-                {
-                    Longitude = 25.0321,
-                    Latitude = 121.123
-                },
-                new LocationData()
-                {
-                    Longitude = 25.08123,
-                    Latitude = 120.1123
-                },
-                new LocationData()
-                {
-                    Longitude = 24.987,
-                    Latitude = 120.543
-                }
-            };
-            Locations[1].addWaterLevel(DateTime.Now, 30.0);
-            Locations[1].addWaterLevel(DateTime.Now.AddHours(0.5), 10.8);
+                Locations.Add(new LocationData() { Longitude = dataFromServer.data.LocationsFromServer[i].longitude, Latitude = dataFromServer.data.LocationsFromServer[i].latitude });
+            } 
         }
         static ListOfLocations _instance;
 

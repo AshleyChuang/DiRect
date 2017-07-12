@@ -89,8 +89,6 @@ C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\ScreensInterfaces
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\ScreensRepo.dll
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\GPS.dll
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
-C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\GMap.NET.WindowsPresentation.dll
-C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\GMap.NET.Core.dll
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\WPFToolkit.dll
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\ScreensInterfaces.pdb
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\ScreensRepo.pdb
@@ -128,3 +126,4 @@ C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\GPS.pdb
 C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.csprojResolveAssemblyReference.cache
 C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.dll
 C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.pdb
+C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\Microsoft.Maps.MapControl.WPF.dll

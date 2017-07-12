@@ -65,7 +65,7 @@
       </StateMachine.InitialState>
       <x:Reference>__ReferenceID0</x:Reference>
       <x:Reference>__ReferenceID1</x:Reference>
-      <sads:DebugSymbol.Symbol>9xBSyrGDsme1MunD3o2txvfMPUM6XFVzZXJzXFRyYWN5XERlc2t0b3BcR2l0XERpUmVjdFxXb3JrRmxvd3NcTWFpbldvcmtGbG93LnhhbWwHNANTEgIBATYHTg8CAQg9D0oXAgECOAs4YgIBCz8TSBwCAQRGPkZKAgEHQhlCaQIBBQ==</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xBSyrGDsme1MunD3o2txvfMPEM6XFVzZXJzXEFzaGxleVxEb2N1bWVudHNcRGlSZWN0XFdvcmtGbG93c1xNYWluV29ya0Zsb3cueGFtbAc0A1MSAgEBNgdODwIBCD0PShcCAQI4CzhiAgELPxNIHAIBBEY+RkoCAQdCGUJpAgEF</sads:DebugSymbol.Symbol>
     </StateMachine>
   </local:MainWorkFlow.Implementation>
 </local:MainWorkFlow>
