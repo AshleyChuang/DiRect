@@ -108,3 +108,5 @@ C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\obj\Debug\Authenticator.csprojRe
 C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\obj\Debug\Authenticator.dll
 C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\obj\Debug\Authenticator.pdb
 C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\Authenticator\bin\Debug\WPFToolkit.pdb

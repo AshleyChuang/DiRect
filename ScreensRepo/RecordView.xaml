@@ -73,78 +73,82 @@
             </Setter>
         </Style>
     </UserControl.Resources>
-    <Grid Background="White">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="3*"/>
-        </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
-            <m:Map x:Name="mapView" CredentialsProvider="KEEEDTBMuatP82T0lBaz~LyodepcBdLJbXPBIPbavGQ~An_AVM9YZUJmROHUkFUGL2ujCmxsUDNCpps94i5ACIJYMuB9I-Ex3jihxTYdpj1x"
+    
+    
+    <Grid Background="SteelBlue">
+        <Border CornerRadius="20" Background="White">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <m:Map x:Name="mapView" CredentialsProvider="KEEEDTBMuatP82T0lBaz~LyodepcBdLJbXPBIPbavGQ~An_AVM9YZUJmROHUkFUGL2ujCmxsUDNCpps94i5ACIJYMuB9I-Ex3jihxTYdpj1x"
                            Height="300" />
-        </Grid>
-        <ScrollViewer
+            </Grid>
+            <ScrollViewer
                 VerticalScrollBarVisibility="Visible"
                 CanContentScroll="False"
                 Grid.Row="1">
-            <StackPanel>
-                <ScrollViewer
+                <StackPanel>
+                    <ScrollViewer
                     x:Name="ScrollArea" BorderThickness="0"
                     HorizontalScrollBarVisibility="Visible"
                     VerticalScrollBarVisibility="Hidden">
-                    <chartingToolkit:Chart
+                        <chartingToolkit:Chart
                         Margin="0,0,0,0" Name="chart1"
                         VerticalAlignment="Top"
                         Height="200" Width="auto"
                         Padding="0"
                         Style="{StaticResource AreaChart}">
 
-                        <chartingToolkit:Chart.Axes>
-                            <chartingToolkit:LinearAxis 
+                            <chartingToolkit:Chart.Axes>
+                                <chartingToolkit:LinearAxis 
                                 Name="myLinearAxis"
                                 Orientation="Y" Visibility="Hidden" ShowGridLines="True"/>
-                            <chartingToolkit:DateTimeAxis 
+                                <chartingToolkit:DateTimeAxis 
                                 Name="myDateTimeAxis"
                                 Orientation="X" ShowGridLines="True" 
                                 Style="{StaticResource DateTimeAxis}"/>
-                        </chartingToolkit:Chart.Axes>
+                            </chartingToolkit:Chart.Axes>
 
-                        <chartingToolkit:AreaSeries 
+                            <chartingToolkit:AreaSeries 
                             Name="myLineSeries"
                             ItemsSource="{Binding waterLevel}"
                             DependentValueBinding="{Binding Path=Value}"
                             IndependentValueBinding="{Binding Path=Date}" 
                             Style="{StaticResource AreaSeries}"/>
 
-                        <chartingToolkit:Chart.PlotAreaStyle>
-                            <Style>
-                                <Setter Property="Canvas.Background" Value="White"></Setter>
-                            </Style>
-                        </chartingToolkit:Chart.PlotAreaStyle>
+                            <chartingToolkit:Chart.PlotAreaStyle>
+                                <Style>
+                                    <Setter Property="Canvas.Background" Value="White"></Setter>
+                                </Style>
+                            </chartingToolkit:Chart.PlotAreaStyle>
 
-                    </chartingToolkit:Chart>
+                        </chartingToolkit:Chart>
 
-                </ScrollViewer>
-                <StackPanel  x:Name="Timer" Orientation="Horizontal" HorizontalAlignment="Left">
-                    <TextBlock x:Name="TimeTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Time: " />
-                    <TextBox x:Name="TimeTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="" IsReadOnly="True" />
+                    </ScrollViewer>
+                    <StackPanel  x:Name="Timer" Orientation="Horizontal" HorizontalAlignment="Left">
+                        <TextBlock x:Name="TimeTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Time: " />
+                        <TextBox x:Name="TimeTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="" IsReadOnly="True" />
 
-                </StackPanel>
-
-                <Grid x:Name="coordinates">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left" >
-                        <TextBlock x:Name="Latitude" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Latitude: " Margin="10,10,10,10" />
-                        <TextBox x:Name="LatitudeTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text=""  Width="120" Margin="10,10,10,10" IsReadOnly="True"/>
                     </StackPanel>
-                    <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
-                        <TextBlock x:Name="Longitude"   TextWrapping="Wrap" Text="Longitude: " HorizontalAlignment="Left" Margin="10,10,10,10"/>
-                        <TextBox x:Name="LongitudeTextBox" Height="23" TextWrapping="Wrap" Text=""  Width="120" HorizontalAlignment="Left" Margin="10,10,10,10" IsReadOnly="True"/>
-                    </StackPanel>
-                </Grid>
-                <!-- 
+
+                    <Grid x:Name="coordinates">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <TextBlock x:Name="Latitude" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Latitude: " Margin="10,10,10,10" />
+                            <TextBox x:Name="LatitudeTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text=""  Width="120" Margin="10,10,10,10" IsReadOnly="True"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
+                            <TextBlock x:Name="Longitude"   TextWrapping="Wrap" Text="Longitude: " HorizontalAlignment="Left" Margin="10,10,10,10"/>
+                            <TextBox x:Name="LongitudeTextBox" Height="23" TextWrapping="Wrap" Text=""  Width="120" HorizontalAlignment="Left" Margin="10,10,10,10" IsReadOnly="True"/>
+                        </StackPanel>
+                    </Grid>
+                    <!-- 
                 <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left">
                     <TextBlock x:Name="AddressTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Address: " />
                     <ComboBox x:Name="CountyNameComboBox" HorizontalAlignment="Left"  Margin="10,10,10,10" Height="23"  VerticalAlignment="Top" Width="70" Text="縣市" />
@@ -160,14 +164,14 @@
                 -->
 
 
-                <StackPanel x:Name="waterlevel" Orientation="Horizontal" HorizontalAlignment="Left">
-                    <TextBlock x:Name="WaterLevelTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="WaterLevel: " VerticalAlignment="Top"/>
-                    <TextBox x:Name="WaterLevelTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <StackPanel x:Name="waterlevel" Orientation="Horizontal" HorizontalAlignment="Left">
+                        <TextBlock x:Name="WaterLevelTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="WaterLevel: " VerticalAlignment="Top"/>
+                        <TextBox x:Name="WaterLevelTextBox" HorizontalAlignment="Left" Margin="10,10,10,10" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    </StackPanel>
+                    <Button x:Name="Save_Button" Content="Save" Click="Click_On_Save_Button" HorizontalAlignment="Left"  Margin="10,10,10,10" VerticalAlignment="Top" Width="75"/>
                 </StackPanel>
-                <Button x:Name="Save_Button" Content="Save" Click="Click_On_Save_Button" HorizontalAlignment="Left"  Margin="10,10,10,10" VerticalAlignment="Top" Width="75"/>
-            </StackPanel>
-        </ScrollViewer>
-
-
+            </ScrollViewer>
+            </Grid>
+        </Border>
     </Grid>
 </src:MenuViewBase>

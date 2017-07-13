@@ -127,3 +127,5 @@ C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\obj\Debug\RepresentationLa
 C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.dll
 C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.pdb
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\RepresentationLayer\bin\Debug\WPFToolkit.pdb

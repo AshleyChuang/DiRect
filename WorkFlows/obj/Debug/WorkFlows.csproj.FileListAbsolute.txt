@@ -546,3 +546,5 @@ C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\Microsoft.Maps.MapControl.W
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\WPFToolkit.pdb
 C:\Users\Ashley\Documents\DiRect\WorkFlows\obj\Debug\WorkFlows.csproj.FileListAbsolute.txt
+C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\bin\Debug\WPFToolkit.pdb

@@ -7,7 +7,35 @@
              mc:Ignorable="d" 
              xmlns:src="clr-namespace:ScreensInterfaces;assembly=ScreensInterfaces"
              d:DesignHeight="313" d:DesignWidth="382">
-    <Grid Background="Cornsilk">
-       
+
+    <Grid Background="SteelBlue" >
+        <Border CornerRadius="20" Background="White">
+            <ScrollViewer Margin="20">
+                <StackPanel Margin="25">
+                    <StackPanel.Resources>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="Black" />
+                            <Setter Property="FontSize" Value="24" />
+                        </Style>
+                    </StackPanel.Resources>
+                    <TextBlock Text="今日任務" FontWeight="ExtraBlack" FontSize="35" Foreground="#FF4682B4" HorizontalAlignment="Center" Margin="5"></TextBlock>
+                    <TextBlock Text="紀錄人員姓名: OOO" Margin="5"></TextBlock>
+                    <TextBlock Text="日期: 2017/7/13 " Margin="5"></TextBlock>
+                    <TextBlock Text="災害種類: 水災 " Margin="5"></TextBlock>
+                    <TextBlock Text="今日調查縣市: 台北 " Margin="5"></TextBlock>
+                    <TextBlock Text="紀錄地點:  " Margin="5"></TextBlock>
+                    <TextBlock Text="       25.068133°N, 121.6057661°E" ></TextBlock>
+                    <TextBlock Text="       25.046907°N, 121.557357 °E" ></TextBlock>
+                    <TextBlock Text="       25.027038°N, 121.565511 °E" ></TextBlock>
+                    <TextBlock Text="       25.045391°N, 121.611817 °E" ></TextBlock>
+                    <TextBlock Text="紀錄時間:  "></TextBlock>
+                    <TextBlock Text="      11:00"></TextBlock>
+                    <TextBlock Text="      13:00" ></TextBlock>
+                    <TextBlock Text="      15:00" ></TextBlock>
+                    <TextBlock Text="      17:00"></TextBlock>
+                    <TextBlock Text="請於上述時間一小時內至每個指定地點紀錄水位" Margin="5"></TextBlock>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
     </Grid>
 </src:MenuViewBase>

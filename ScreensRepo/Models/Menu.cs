@@ -10,11 +10,11 @@ namespace ScreensRepo.Models
     {
         public Menu() {
             MenuItemList = new List<MenuItem>();
-            MenuItem mainView = new MenuItem("Main");
+            MenuItem mainView = new MenuItem("今日任務");
             MenuItemList.Add(mainView);
-            MenuItem otherView = new MenuItem("Other");
+            MenuItem otherView = new MenuItem("通訊錄");
             MenuItemList.Add(otherView);
-            MenuItem recordView = new MenuItem("Record");
+            MenuItem recordView = new MenuItem("紀錄");
             MenuItemList.Add(recordView);
 
         }

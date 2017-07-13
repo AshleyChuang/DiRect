@@ -150,3 +150,5 @@ C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\obj\Debug\ServiceLocator.csproj
 C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\obj\Debug\ServiceLocator.dll
 C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\obj\Debug\ServiceLocator.pdb
 C:\Users\Ashley\Documents\DiRect\ServiceLocator\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\ServiceLocator\bin\Debug\WPFToolkit.pdb

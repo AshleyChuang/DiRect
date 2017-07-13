@@ -10,9 +10,9 @@
              xmlns:ScreensRepo.Models="clr-namespace:ScreensRepo.Models" 
              d:DesignHeight="350" d:DesignWidth="525">
 
-    
-    
-    <Grid Background="AliceBlue">
+
+
+    <Grid Background="SteelBlue">
         
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="85*"/>
@@ -32,9 +32,10 @@
                 </Grid.ColumnDefinitions>
                 <Button Content="Logout" Width="50px" Height="20px" Margin="5,5,5,0" HorizontalAlignment="Right" Grid.Column="1"></Button>
             </Grid>
-            
-            
-            <Border MouseEnter="CurrentMenuView_MouseEnter" Grid.Row="1"  Margin="5" BorderBrush="#FF7F9DB9" BorderThickness="1">
+
+
+            <Border MouseEnter="CurrentMenuView_MouseEnter" Grid.Row="1"  Margin="10"  CornerRadius="28,28,28,28"
+                     BorderThickness="5">
                 <ContentControl  x:Uid="ContentControl_2" Content="{Binding CurrentMenuView}" />
 
             </Border>
@@ -43,9 +44,11 @@
         <ListBox x:Name="ListBoxMenu"
                  SelectionChanged="ListBoxMenu_SelectionChanged"
                  MouseEnter="ListBoxMenu_MouseEnter"
-                 Grid.Column="0" Margin="5"
+                 Grid.Column="0" Margin="10"
                  ItemsSource="{Binding MyMenu.MenuItemList}"
-                 SelectedIndex="0">
+                 SelectedIndex="0"
+              
+                 >
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding Lable}" Padding="10"/>

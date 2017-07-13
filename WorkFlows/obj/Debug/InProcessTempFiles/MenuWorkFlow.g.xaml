@@ -78,7 +78,7 @@
             </Transition>
             <Transition DisplayName="T1">
               <Transition.Condition>
-                <mca:CSharpValue x:TypeArguments="x:Boolean">vNextState=="Main"</mca:CSharpValue>
+                <mca:CSharpValue x:TypeArguments="x:Boolean">vNextState=="今日任務"</mca:CSharpValue>
               </Transition.Condition>
               <Transition.To>
                 <State x:Name="__ReferenceID2" DisplayName="Show Main View">
@@ -93,7 +93,7 @@
             </Transition>
             <Transition DisplayName="T3">
               <Transition.Condition>
-                <mca:CSharpValue x:TypeArguments="x:Boolean">vNextState == "Other"</mca:CSharpValue>
+                <mca:CSharpValue x:TypeArguments="x:Boolean">vNextState == "通訊錄"</mca:CSharpValue>
               </Transition.Condition>
               <Transition.To>
                 <State x:Name="__ReferenceID3" DisplayName="Show Other View">
@@ -108,7 +108,7 @@
             </Transition>
             <Transition DisplayName="T6">
               <Transition.Condition>
-                <mca:CSharpValue x:TypeArguments="x:Boolean">vNextState == "Record"</mca:CSharpValue>
+                <mca:CSharpValue x:TypeArguments="x:Boolean">vNextState == "紀錄"</mca:CSharpValue>
               </Transition.Condition>
               <Transition.To>
                 <State x:Name="__ReferenceID4" DisplayName="Show Record View">
@@ -133,7 +133,7 @@
         <Variable x:TypeArguments="x:String" Name="vNextState" />
         <Variable x:TypeArguments="x:String" Name="vNextWorkFlow" />
       </StateMachine.Variables>
-      <sads:DebugSymbol.Symbol>d0BDOlxVc2Vyc1xUcmFjeVxEZXNrdG9wXFdGX1dQRl9IdW50ZXJcV29ya0Zsb3dzXE1lbnVXb3JrRmxvdy54YW1sFDQDlwESAgEBNgeLAQ8CARlLD1oXAgEOYg9pFwIBCnEPeBcCAQaAAQ+HARcCAQI4C0MqAgEsSA9IaAIBJ18PX2ACASNuD25jAgEffQ99ZAIBG00TWBwCARBkE2RqAgENcxNzbAIBCYIBE4IBbgIBBTg2OEcCATU7ETthAgExQBFAZAIBLVUZVWQCARVQGVBpAgER</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>dz1DOlxVc2Vyc1xUcmFjeVxEZXNrdG9wXEdpdFxEaVJlY3RcV29ya0Zsb3dzXE1lbnVXb3JrRmxvdy54YW1sFDQDlwESAgEBNgeLAQ8CARlLD1oXAgEOYg9pFwIBCnEPeBcCAQaAAQ+HARcCAQI4C0MqAgEsSA9IaAIBJ18PX2ACASNuD25hAgEffQ99YAIBG00TWBwCARBkE2RqAgENcxNzbAIBCYIBE4IBbgIBBTg2OEcCATU7ETthAgExQBFAZAIBLVUZVWQCARVQGVBpAgER</sads:DebugSymbol.Symbol>
     </StateMachine>
   </local:MenuWorkFlow.Implementation>
 </local:MenuWorkFlow>

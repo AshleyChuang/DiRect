@@ -356,3 +356,5 @@ C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\obj\Debug\AppHost.csproj.GenerateResour
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\WPFToolkit.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\bin\Debug\WPFToolkit.pdb
