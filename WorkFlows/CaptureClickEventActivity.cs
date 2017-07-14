@@ -73,9 +73,6 @@ namespace WorkFlows
             NextState.Set(context, nextState);
             NextWorkFlow.Set(context, nextWorkFlow);
             Record.Set(context, recordData);
-
-
-
         }
     }
 }

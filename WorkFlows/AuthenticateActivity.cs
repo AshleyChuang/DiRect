@@ -31,8 +31,6 @@ namespace WorkFlows
             }
             NextState.Set(context, nextState);  
             Result.Set(context, message);
-            
-
         }
       
     }

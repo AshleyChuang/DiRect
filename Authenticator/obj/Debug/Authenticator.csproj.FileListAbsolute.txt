@@ -69,13 +69,9 @@ C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\Authenticator.pdb
 C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\ScreensInterfaces.dll
 C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\ScreensRepo.dll
 C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\GPS.dll
-C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
-C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\WPFToolkit.dll
 C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\ScreensInterfaces.pdb
 C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\ScreensRepo.pdb
 C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\GPS.pdb
-C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
-C:\Users\Ashley\Documents\DiRect\Authenticator\bin\Debug\WPFToolkit.pdb
 C:\Users\Ashley\Documents\DiRect\Authenticator\obj\Debug\Authenticator.csprojResolveAssemblyReference.cache
 C:\Users\Ashley\Documents\DiRect\Authenticator\obj\Debug\Authenticator.dll
 C:\Users\Ashley\Documents\DiRect\Authenticator\obj\Debug\Authenticator.pdb

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,6 @@ namespace ScreensRepo.Models
         public string Latitude { get; set; }
         public string WaterLevel { get; set; }
         public string Time { get; set; }
-        public int LocationID { get; set; }
+        public ObservableCollection<string> causes { get; set; }
     }
 }

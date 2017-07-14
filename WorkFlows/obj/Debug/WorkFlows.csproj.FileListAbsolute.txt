@@ -401,9 +401,7 @@ C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\ScreensInterfaces.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\ScreensRepo.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\ServiceLocator.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\GPS.dll
-C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\RepresentationLayer.dll
-C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\WPFToolkit.dll
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\Authenticator.pdb
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\ScreensInterfaces.pdb
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\ScreensRepo.pdb
@@ -543,8 +541,5 @@ C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\obj\Debug\WorkFlows_MainWorkFlow_Com
 C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\obj\Debug\WorkFlows_OtherWorkFlow_CompiledExpressionRoot.cs
 C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
 C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
-C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
-C:\Users\Ashley\Documents\DiRect\WorkFlows\bin\Debug\WPFToolkit.pdb
-C:\Users\Ashley\Documents\DiRect\WorkFlows\obj\Debug\WorkFlows.csproj.FileListAbsolute.txt
 C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
 C:\Users\Tracy\Desktop\Git\DiRect\WorkFlows\bin\Debug\WPFToolkit.pdb

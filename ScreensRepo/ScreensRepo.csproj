@@ -72,6 +72,7 @@
     <Compile Include="MenuScreen.xaml.cs">
       <DependentUpon>MenuScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\CauseOfDisaster.cs" />
     <Compile Include="Models\DataFromServer.cs" />
     <Compile Include="Models\FakeData.cs" />
     <Compile Include="Models\ListOfLocations.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\FloodsRecord.cs" />
+    <Compile Include="Models\PossibleCausesOfDisaster.cs" />
     <Compile Include="NotificationWindow.xaml.cs">
       <DependentUpon>NotificationWindow.xaml</DependentUpon>
     </Compile>

@@ -273,8 +273,6 @@ C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\RepresentationLayer.dll
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\Authenticator.dll
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\ScreensRepo.dll
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\GPS.dll
-C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
-C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\WPFToolkit.dll
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\ScreensInterfaces.pdb
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\ServiceLocator.pdb
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\WorkFlows.pdb
@@ -354,7 +352,5 @@ C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\obj\Debug\AppHost.g.resources
 C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\obj\Debug\AppHost.Properties.Resources.resources
 C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\obj\Debug\AppHost.csproj.GenerateResource.Cache
 C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
-C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
-C:\Users\Ashley\Documents\DiRect\WF_WPF\bin\Debug\WPFToolkit.pdb
 C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
 C:\Users\Tracy\Desktop\Git\DiRect\WF_WPF\bin\Debug\WPFToolkit.pdb

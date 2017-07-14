@@ -1,6 +1,7 @@
 ﻿using ScreensRepo.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace ScreensRepo.ViewModles
 
 
         }
-        static public FloodsRecord SaveRecord(int locationID,string address, string latitude, string longitude, string time, string waterLevel)
+        static public FloodsRecord SaveRecord(string address, string latitude, string longitude, string time, string waterLevel, ObservableCollection<string> causes)
         {
             FloodsRecord record = new FloodsRecord();
             record.Address = address;
@@ -23,7 +24,7 @@ namespace ScreensRepo.ViewModles
             record.Longitude = longitude;
             record.Time = time;
             record.WaterLevel = waterLevel;
-            record.LocationID = locationID;
+            record.causes = causes;
             //AddToLocationList(locationID,time,waterLevel);
             return record;
 

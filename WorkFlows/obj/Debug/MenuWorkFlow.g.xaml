@@ -133,7 +133,7 @@
         <Variable x:TypeArguments="x:String" Name="vNextState" />
         <Variable x:TypeArguments="x:String" Name="vNextWorkFlow" />
       </StateMachine.Variables>
-      <sads:DebugSymbol.Symbol>9xBGPaVAPpysq0JbODrxLxqlPUM6XFVzZXJzXFRyYWN5XERlc2t0b3BcR2l0XERpUmVjdFxXb3JrRmxvd3NcTWVudVdvcmtGbG93LnhhbWwUNAOXARICAQE2B4sBDwIBGUsPWhcCAQ5iD2kXAgEKcQ94FwIBBoABD4cBFwIBAjgLQyoCASxID0hoAgEnXw9fYAIBI24PbmECAR99D31gAgEbTRNYHAIBEGQTZGoCAQ1zE3NsAgEJggETggFuAgEFODY4RwIBNTsRO2ECATFAEUBkAgEtVRlVZAIBFVAZUGkCARE=</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xBGPaVAPpysq0JbODrxLxqlPEM6XFVzZXJzXEFzaGxleVxEb2N1bWVudHNcRGlSZWN0XFdvcmtGbG93c1xNZW51V29ya0Zsb3cueGFtbBQ0A5cBEgIBATYHiwEPAgEZSw9aFwIBDmIPaRcCAQpxD3gXAgEGgAEPhwEXAgECOAtDKgIBLEgPSGgCASdfD19gAgEjbg9uYQIBH30PfWACARtNE1gcAgEQZBNkagIBDXMTc2wCAQmCAROCAW4CAQU4NjhHAgE1OxE7YQIBMUARQGQCAS1VGVVkAgEVUBlQaQIBEQ==</sads:DebugSymbol.Symbol>
     </StateMachine>
   </local:MenuWorkFlow.Implementation>
 </local:MenuWorkFlow>

@@ -88,13 +88,9 @@ C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\RepresentationLay
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\ScreensInterfaces.dll
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\ScreensRepo.dll
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\GPS.dll
-C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
-C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\WPFToolkit.dll
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\ScreensInterfaces.pdb
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\ScreensRepo.pdb
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\GPS.pdb
-C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
-C:\Users\Ashley\Documents\DiRect\RepresentationLayer\bin\Debug\WPFToolkit.pdb
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.csprojResolveAssemblyReference.cache
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.dll
 C:\Users\Ashley\Documents\DiRect\RepresentationLayer\obj\Debug\RepresentationLayer.pdb

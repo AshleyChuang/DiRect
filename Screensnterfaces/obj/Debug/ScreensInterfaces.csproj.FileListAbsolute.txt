@@ -42,7 +42,6 @@ C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\Screensnterfaces\obj\Debug\ScreensInterf
 C:\Users\Tracy\Desktop\WF_WPF_Hunter(1)\Screensnterfaces\obj\Debug\ScreensInterfaces.pdb
 C:\Users\Ashley\Documents\DiRect\Screensnterfaces\bin\Debug\ScreensInterfaces.dll
 C:\Users\Ashley\Documents\DiRect\Screensnterfaces\bin\Debug\ScreensInterfaces.pdb
-C:\Users\Ashley\Documents\DiRect\Screensnterfaces\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
 C:\Users\Ashley\Documents\DiRect\Screensnterfaces\bin\Debug\WPFToolkit.dll
 C:\Users\Ashley\Documents\DiRect\Screensnterfaces\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
 C:\Users\Ashley\Documents\DiRect\Screensnterfaces\bin\Debug\WPFToolkit.pdb

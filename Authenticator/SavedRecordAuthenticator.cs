@@ -25,15 +25,20 @@ namespace Authenticator
             double waterLevelDouble;
             Debug.WriteLine("address = "+ address);
             Debug.WriteLine("waterLevel = "+ waterLevelString);
-            if (String.IsNullOrEmpty(address)) {
-                
+            if (String.IsNullOrEmpty(address))
+            {
+
                 return "Please fill in address.";
             }
-            else if (String.IsNullOrEmpty(waterLevelString)) {
-               
+            else if (String.IsNullOrEmpty(waterLevelString))
+            {
+
                 return "Please fill in water level.";
             }
-           
+            else
+            {
+                return "Please select options in the checkbox.";
+            }
 
             try
             {

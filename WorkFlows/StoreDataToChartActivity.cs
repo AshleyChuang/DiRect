@@ -19,12 +19,6 @@ namespace WorkFlows
             SaveButtonClickedEventArgs e = (SaveButtonClickedEventArgs)context.GetValue(this.RecordData);
 
             FloodsRecord record = (FloodsRecord)e.SavedRecord;
-            Debug.WriteLine("record="+ record.Time+"  " + record.WaterLevel + "  " + record.LocationID);
-            //RecordViewModel.AddToLocationList(record.LocationID, record.Time,record.WaterLevel);
-
-     
-
-
         }
     }
 }
