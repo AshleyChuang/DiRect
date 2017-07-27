@@ -1,0 +1,16 @@
+obj\Debug\_DiReCT_wf.g.cs
+obj\Debug\LoginWorkFlow.g.cs
+obj\Debug\MainWorkFlow.g.cs
+obj\Debug\MenuWorkFlow.g.cs
+obj\Debug\OtherWorkFlow.g.cs
+obj\Debug\RecordWorkFlow.g.cs
+obj\Debug\DiReCT_wf_LoginWorkFlow_BeforeInitializeComponentHelper.cs
+obj\Debug\DiReCT_wf_MainWorkFlow_BeforeInitializeComponentHelper.cs
+obj\Debug\DiReCT_wf_MenuWorkFlow_BeforeInitializeComponentHelper.cs
+obj\Debug\DiReCT_wf_OtherWorkFlow_BeforeInitializeComponentHelper.cs
+obj\Debug\DiReCT_wf_RecordWorkFlow_BeforeInitializeComponentHelper.cs
+C:\Users\Tracy\Desktop\DiReCT\DiReCT_wf\obj\Debug\DiReCT_wf_LoginWorkFlow_CompiledExpressionRoot.cs
+C:\Users\Tracy\Desktop\DiReCT\DiReCT_wf\obj\Debug\DiReCT_wf_MainWorkFlow_CompiledExpressionRoot.cs
+C:\Users\Tracy\Desktop\DiReCT\DiReCT_wf\obj\Debug\DiReCT_wf_MenuWorkFlow_CompiledExpressionRoot.cs
+C:\Users\Tracy\Desktop\DiReCT\DiReCT_wf\obj\Debug\DiReCT_wf_OtherWorkFlow_CompiledExpressionRoot.cs
+C:\Users\Tracy\Desktop\DiReCT\DiReCT_wf\obj\Debug\DiReCT_wf_RecordWorkFlow_CompiledExpressionRoot.cs

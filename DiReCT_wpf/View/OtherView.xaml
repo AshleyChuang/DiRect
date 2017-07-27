@@ -1,0 +1,128 @@
+﻿<src:MenuViewBase x:Class="DiReCT_wpf.View.OtherView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:DiReCT_wpf.View"
+             xmlns:src="clr-namespace:DiReCT_wpf.ScreenInterface"
+             mc:Ignorable="d"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:vm="clr-namespace:DiReCT_wpf.ViewModel"
+             xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             xmlns:xcdg="http://schemas.xceed.com/wpf/xaml/datagrid"
+             xmlns:xwt="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
+             d:DesignHeight="313" d:DesignWidth="382">
+    
+    <Grid Background="SteelBlue">
+        <Border CornerRadius="20" Background="White">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.Resources>
+                        <vm:OtherViewModel x:Key="LMapVM"/>
+                    </Grid.Resources>
+                    <m:Map x:Name="mapView" CredentialsProvider="KEEEDTBMuatP82T0lBaz~LyodepcBdLJbXPBIPbavGQ~An_AVM9YZUJmROHUkFUGL2ujCmxsUDNCpps94i5ACIJYMuB9I-Ex3jihxTYdpj1x"
+                           Height="300" Center="{Binding CurrentLocation, Mode=TwoWay}" ZoomLevel="17"
+                           MouseRightButtonUp="mapViewMouseUp"
+                           MouseMove="mapViewMouseMove" >
+                        <m:Pushpin x:Name="pushpin" Location="{Binding Source={StaticResource LMapVM}, Path=CurrentLocation, Mode=TwoWay}"></m:Pushpin>
+                    </m:Map>
+                </Grid>
+                <ScrollViewer
+                VerticalScrollBarVisibility="Visible"
+                CanContentScroll="False"
+                Grid.Row="1">
+                    <StackPanel>
+                        <Border CornerRadius="10" Background="BlanchedAlmond" Margin="10">
+                            <Grid x:Name="background">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <TextBlock x:Name="TimeTextBlock" HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Current timestamp: " FontWeight="Bold" Foreground="DarkBlue"/>
+                                        <TextBlock x:Name="TimeTextBox" HorizontalAlignment="Left" Margin="0,10,10,10" TextWrapping="Wrap" Text="{Binding currentTimeStamp}"/>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                                        <TextBlock x:Name="Coordinate" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Current coordinate: " Margin="10,10,10,10" FontWeight="Bold" Foreground="DarkBlue"/>
+                                        <TextBlock x:Name="LatitudeTextBlock" Height="23" TextWrapping="Wrap" Text="{Binding currentLatitude}"  Width="50" HorizontalAlignment="Left" Margin="0,10,10,10"/>
+                                        <TextBlock Height="23" TextWrapping="Wrap" Text="," HorizontalAlignment="Left" Margin="0,10,10,10"/>
+                                        <TextBlock x:Name="LongitudeTextBlock" Height="23" TextWrapping="Wrap" Text="{Binding currentLongitude}"  Width="50" HorizontalAlignment="Left" Margin="0,10,10,10"/>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Grid.Column="2">
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <TextBlock HorizontalAlignment="Left" Text="Cause of the disaster: " TextWrapping="Wrap" Margin="10,10,10,10" FontWeight="Bold" Foreground="DarkBlue"></TextBlock>
+                                        <TextBlock HorizontalAlignment="Left" Text="Typhoon" TextWrapping="Wrap" Margin="0,10,10,10"></TextBlock>
+                                    </StackPanel>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                        <Grid>
+                            <Grid>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <TextBlock HorizontalAlignment="Left" Text="The landslide occured at: " TextWrapping="Wrap" Margin="10,10,10,10" FontWeight="Bold"></TextBlock>
+                                    <xctk:DateTimePicker HorizontalAlignment="Left" Margin="10,10,10,10" Width="180" Height="20" Format="Custom" FormatString="yyyy-MM-dd hh:mm tt" Value="{Binding currentDateTime}"></xctk:DateTimePicker>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                        <StackPanel HorizontalAlignment="Left">
+                            <TextBlock HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="(1) Landslide condition: " VerticalAlignment="Top" FontWeight="Bold"/>
+                                <CheckBox HorizontalAlignment="Left" Margin="10,10,10,10" IsChecked="{Binding conditions[0], Mode=TwoWay}">House was buried</CheckBox>
+                                <CheckBox HorizontalAlignment="Left" Margin="10,10,10,10" IsChecked="{Binding conditions[1], Mode=TwoWay}">Farm was buried</CheckBox>
+                                <CheckBox HorizontalAlignment="Left" Margin="10,10,10,10" IsChecked="{Binding conditions[2], Mode=TwoWay}">Road was buried</CheckBox>
+                                <CheckBox HorizontalAlignment="Left" Margin="10,10,10,10" IsChecked="{Binding conditions[3], Mode=TwoWay}">River siltation</CheckBox>
+                                <CheckBox HorizontalAlignment="Left" Margin="10,10,10,10" IsChecked="{Binding conditions[4], Mode=TwoWay}">Ground cracked</CheckBox>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="(2) River siltation: " VerticalAlignment="Top" FontWeight="Bold"/>
+                                <ComboBox HorizontalAlignment="Left" Margin="10,10,10,10">
+                                    <ComboBoxItem IsSelected="True">Severe</ComboBoxItem>
+                                    <ComboBoxItem>Moderate</ComboBoxItem>
+                                    <ComboBoxItem>Light</ComboBoxItem>
+                                </ComboBox>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="(3) Building Damage: " VerticalAlignment="Top" FontWeight="Bold"/>
+                                <ComboBox HorizontalAlignment="Left" Margin="10,10,10,10">
+                                    <ComboBoxItem IsSelected="True">More than 5 houses were buried</ComboBoxItem>
+                                    <ComboBoxItem>1~4 houses were buried</ComboBoxItem>
+                                    <ComboBoxItem>No house was buried</ComboBoxItem>
+                                </ComboBox>
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                            <TextBlock HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="(4) Casualties: " VerticalAlignment="Top" FontWeight="Bold"></TextBlock>
+                            <TextBlock HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Injury troll" VerticalAlignment="Top"></TextBlock>
+                            <xctk:IntegerUpDown Value="{Binding injuryTroll}" Minimum="0"/>
+                            <TextBlock HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="Death troll" VerticalAlignment="Top"></TextBlock>
+                            <xctk:IntegerUpDown Value="{Binding deathTroll}" Minimum="0"/>
+                        </StackPanel>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,10,10" TextWrapping="Wrap" Text="(5) Disaster image: " VerticalAlignment="Top" FontWeight="Bold"></TextBlock>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30*" />
+                                <ColumnDefinition Width="349*" />
+                                <ColumnDefinition Width="30*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Margin="12,12,16,71" Name="imgPhoto" Source="{Binding photoUploaded}" Stretch="Fill" Grid.Column="1" />
+                            <Button Height="23" HorizontalAlignment="Left" Margin="12,0,0,34" Name="btnLoad" VerticalAlignment="Bottom" Width="75" Grid.Column="1" Command="{Binding UploadCommand}">Load</Button>
+                        </Grid>
+                        <Button x:Name="Save_Button" Content="Save" Command="{Binding SaveCommand}"  HorizontalAlignment="Left"  Margin="10,10,10,10" VerticalAlignment="Top" Width="75"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+    </Grid>
+
+</src:MenuViewBase>

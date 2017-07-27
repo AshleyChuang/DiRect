@@ -1,0 +1,89 @@
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\AppHost.exe.config
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\AppHost.exe
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\AppHost.pdb
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\DiReCT_wf.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\DiReCT_wpf.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\DiReCT_wf.pdb
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\DiReCT_wpf.pdb
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\AppHost.csprojResolveAssemblyReference.cache
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\MainWindow.g.cs
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\App.g.cs
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\AppHost_MarkupCompile.cache
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\AppHost_MarkupCompile.lref
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\MainWindow.baml
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\AppHost.g.resources
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\AppHost.Properties.Resources.resources
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\AppHost.csproj.GenerateResource.Cache
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\AppHost.exe
+C:\Users\Tracy\Desktop\DiReCT\AppHost\obj\Debug\AppHost.pdb
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\bin\Debug\AppHost.exe.config
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\AppHost.exe
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\AppHost.pdb
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\bin\Debug\AppHost.exe
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\bin\Debug\AppHost.pdb
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\bin\Debug\DiReCT_wf.dll
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\bin\Debug\DiReCT_wpf.dll
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\bin\Debug\DiReCT_wf.pdb
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\bin\Debug\DiReCT_wpf.pdb
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\AppHost.csprojResolveAssemblyReference.cache
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\MainWindow.g.cs
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\App.g.cs
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\AppHost_MarkupCompile.cache
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\AppHost_MarkupCompile.lref
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\MainWindow.baml
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\AppHost.g.resources
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\AppHost.Properties.Resources.resources
+C:\Users\Ashley\Downloads\DiReCT (2)\DiReCT\AppHost\obj\Debug\AppHost.csproj.GenerateResource.Cache
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\AppHost.exe.config
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\AppHost.exe
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\AppHost.pdb
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\AppHost.exe
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\AppHost.pdb
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\DiReCT_wf.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\DiReCT_wpf.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\DiReCT_wf.pdb
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\DiReCT_wpf.pdb
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\AppHost.csprojResolveAssemblyReference.cache
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\MainWindow.g.cs
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\App.g.cs
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\AppHost_MarkupCompile.cache
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\AppHost_MarkupCompile.lref
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\MainWindow.baml
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\AppHost.g.resources
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\AppHost.Properties.Resources.resources
+C:\Users\Ashley\Desktop\DiReCT\AppHost\obj\Debug\AppHost.csproj.GenerateResource.Cache
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ashley\Desktop\DiReCT\AppHost\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Tracy\Desktop\DiReCT\AppHost\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
